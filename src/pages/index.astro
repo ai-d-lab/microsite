@@ -1,0 +1,41 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>We are AI + D</h1>
+      <p>
+        Welcome to the lab website of AI + D, a research group at the HfG
+        Schwäbisch Gmünd. We are a group of researchers, designers, and
+        developers who are interested in the intersection of AI and design. We
+        are currently working on a number of projects.
+      </p>
+      <p>
+        We are part of <a href="https://gestaltung.ai/" target="_blank"
+          >KITeGG</a
+        > - Making AI tangible and comprehensible: Connecting technology and society
+        through design. A joint project of five universities to integrate AI in design
+        theory. Funded by the Federal Ministry of Education and Research (BMBF) and
+        the State of Rhineland-Palatinate.
+      </p>
+      <p>
+        Our goal is to develop a set of tools and methods that enable designers
+        to incorporate AI into their design process. We are currently working on
+        a toolkit that allows designers to create AI-based generative design
+        projects. We are also working on a set of methods that allow designers
+        to incorporate AI into their design process.
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
