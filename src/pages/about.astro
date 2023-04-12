@@ -1,17 +1,14 @@
 ---
-import Layout from "../layouts/BlogPost.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<Layout
+<BaseLayout
   title="About the lab"
   description="Lorem ipsum dolor sit amet"
   pubDate={new Date("August 08 2021")}
   updatedDate={new Date("August 08 2022")}
 >
-  <p>
-    Sanitycheck commit and merge.
-  </p>
-
+  <p>Sanitycheck commit and merge.</p>
 
   <p>
     Morbi tristique senectus et netus. Id semper risus in hendrerit gravida
@@ -62,4 +59,4 @@ import Layout from "../layouts/BlogPost.astro";
     pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique
     magna.
   </p>
-</Layout>
+</BaseLayout>
