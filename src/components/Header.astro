@@ -3,16 +3,12 @@ import HeaderLink from "./HeaderLink.astro";
 import { SITE_TITLE } from "../consts";
 ---
 
-<header class="min-h-full">
-  <h2 
-    class="text-2xl text-center p-12 font-bold leading-7 text-gray-900 sm:truncate sm:text-3xl sm:tracking-tight"
-  >
-    {SITE_TITLE}
-  </h2>
-  <nav class="bg-gray-800">
-    <HeaderLink href="/">Home</HeaderLink>
-    <HeaderLink href="/blog">Blog</HeaderLink>
-    <HeaderLink href="/team">Team</HeaderLink>
-    <HeaderLink href="/about">About</HeaderLink>
-  </nav>
+<header class="min-h-full sticky top-0 bg-gradient-to-b from-white via-white/90 to-transparent">
+  <img src="../../public/aid-explosion.png" class="mx-auto w-1/2">
+  <div class="grid gap-4 grid-cols-4 h-12 max-w-md mx-auto md:max-w-2xl xl:max-w-5xl">
+    <p class="text-center py-2 transition duration-300 backdrop-blur-sm bg-gradient-to-b from-white/80 to-stone-300/20 rounded-2xl flex-auto hover:bg-opacity-90"><HeaderLink class="text-public font-bold text-xl" href="/">Home</HeaderLink></p>
+    <p class="text-center py-2 transition duration-300 backdrop-blur-sm bg-gradient-to-b from-white/80 to-stone-300/20 bg-opacity-60 rounded-2xl flex-auto hover:bg-opacity-90"><HeaderLink class="text-public font-bold text-xl" href="/blog">Blog</HeaderLink></p>
+    <p class="text-center py-2 transition duration-300 backdrop-blur-sm bg-gradient-to-b from-white/80 to-stone-300/20 bg-opacity-60 rounded-2xl flex-auto hover:bg-opacity-90"><HeaderLink class="text-public font-bold text-xl" href="/team">Team</HeaderLink></p>
+    <p class="text-center py-2 transition duration-300 backdrop-blur-sm bg-gradient-to-b from-white/80 to-stone-300/20 bg-opacity-60 rounded-2xl flex-auto hover:bg-opacity-90"><HeaderLink class="text-public font-bold text-xl" href="/about">About</HeaderLink></p>
+  </div>
 </header>

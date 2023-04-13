@@ -11,9 +11,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
-  <body class="max-w-md mx-auto md:max-w-xl xl:max-w-4xl ">
+  <body class="min-w-full">
     <Header title={SITE_TITLE} />
-    <main>
+    <main class="max-w-lg my-12 mx-auto md:max-w-2xl lg:max-w-5xl ">
       <slot />
     </main>
     <Footer />
