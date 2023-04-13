@@ -1,5 +1,5 @@
 ---
-title: "First post"
+title: "New version of HandyTeachingTools released by Felix Sewing"
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Jul 08 2022"
 heroImage: "/placeholder-hero.jpg"
