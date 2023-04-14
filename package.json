@@ -17,6 +17,7 @@
     "@fontsource/akshar": "^4.5.4",
     "@tailwindcss/line-clamp": "^0.4.4",
     "astro": "^2.1.7",
+    "tailwind-gradient-mask-image": "^1.0.0",
     "tailwindcss": "^3.2.7"
   },
   "description": "## 🚀 Project Structure",

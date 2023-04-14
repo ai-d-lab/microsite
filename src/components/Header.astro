@@ -3,12 +3,14 @@ import HeaderLink from "./HeaderLink.astro";
 import { SITE_TITLE } from "../consts";
 ---
 
-<header class="min-h-full sticky top-0 bg-gradient-to-b from-white via-white/50 to-white/0">
-  <img src="../../public/aid-explosion.png" class="mx-auto w-64 md:w-96">
-  <div class="grid gap-4 grid-cols-4 h-12 max-w-md mx-auto md:max-w-2xl">
-    <HeaderLink class="text-public font-bold text-xl" href="/"><p class="text-center py-2 transition-all duration-200 backdrop-blur-lg bg-gradient-to-b from-white/80 to-stone-300/20 rounded-2xl flex-auto hover:shadow-md">Home</p></HeaderLink>
-    <HeaderLink class="text-public font-bold text-xl" href="/blog"><p class="text-center py-2 transition-all duration-200 backdrop-blur-lg bg-gradient-to-b from-white/80 to-stone-300/20 rounded-2xl flex-auto hover:shadow-md">Blog</p></HeaderLink>
-    <HeaderLink class="text-public font-bold text-xl" href="/team"><p class="text-center py-2 transition-all duration-200 backdrop-blur-lg bg-gradient-to-b from-white/80 to-stone-300/20 rounded-2xl flex-auto hover:shadow-md">Team</p></HeaderLink>
-    <HeaderLink class="text-public font-bold text-xl" href="/about"><p class="text-center py-2 transition-all duration-200 backdrop-blur-lg bg-gradient-to-b from-white/80 to-stone-300/20 rounded-2xl flex-auto hover:shadow-md">About</p></HeaderLink>
+<header class="before:absolute before:backdrop-blur-lg before:-z-10 before:-inset-1 before:gradient-mask-b-50 min-h-full sticky top-0 bg-gradient-to-b from-white via-white/50 to-white/0
+
+">
+  <img src="../../public/aid-leafs.png" class="mx-auto w-80 md:w-96">
+  <div class="grid gap-4 grid-cols-4 h-12 max-w-md mx-auto md:max-w-2xl md:w-full md:mt-96 md:ml-60 p-4 md:relative sm:mb-0">
+    <HeaderLink href="/">Home</HeaderLink>
+    <HeaderLink href="/blog">Blog</HeaderLink>
+    <HeaderLink href="/team">Team</HeaderLink>
+    <HeaderLink href="/about">About</HeaderLink>
   </div>
 </header>

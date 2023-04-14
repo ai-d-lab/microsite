@@ -12,10 +12,8 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 ---
 
 <BaseLayout>
-  <h2>yelelellala</h2>
-  <article>
-    {heroImage && <img width={720} height={360} src={heroImage} alt="" />}
-    <h1 class="title">{title}</h1>
+  <article class="max-w-2xl mx-auto">
+    {heroImage && <img width={720} height={360} src={heroImage} alt="" class="mx-auto"/>}
     <FormattedDate date={pubDate} />
     {
       updatedDate && (
@@ -24,7 +22,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         </div>
       )
     }
-    <hr />
     <slot />
   </article>
 </BaseLayout>

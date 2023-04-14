@@ -15,6 +15,7 @@ module.exports = {
 		  },
 		},
 	plugins: [
+		require("tailwind-gradient-mask-image"),
 		require('@tailwindcss/line-clamp'),
 	],
 }

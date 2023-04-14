@@ -4,7 +4,16 @@
 
 @layer base {
 h1 {
-	@apply font-bold;
+	@apply text-4xl font-bold -ml-12 py-4;
+};
+h2 {
+	@apply text-3xl font-bold py-3;
+};
+h3 {
+	@apply text-2xl font-bold py-2;
+};
+h4,h5,h6 {
+	@apply text-lg font-bold;
 }
 }
 
