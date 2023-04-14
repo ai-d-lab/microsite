@@ -1,54 +1,35 @@
 ---
-import BaseHead from '../../components/BaseHead.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
-import { getCollection } from 'astro:content';
-import FormattedDate from '../../components/FormattedDate.astro';
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import FormattedDate from "../../components/FormattedDate.astro";
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+const posts = (await getCollection("blog")).sort(
+  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
 );
+
+// the posts are displayed in a grid layout, with 3 columns depending on the screen size
+// each post has the same height, if there is more text than the other posts, the text will be cut off
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			ul {
-				list-style-type: none;
-				padding: unset;
-			}
-			ul li {
-				display: flex;
-			}
-			ul li :global(time) {
-				flex: 0 0 130px;
-				font-style: italic;
-				color: #595959;
-			}
-			ul li a:visited {
-				color: #8e32dc;
-			}
-		</style>
-	</head>
-	<body>
-		<Header />
-		<main>
-			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<FormattedDate date={post.data.pubDate} />
-								<a href={`/blog/${post.slug}/`}>{post.data.title}</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
-		</main>
-		<Footer />
-	</body>
-</html>
+<BaseLayout>
+  <section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-2 mt-0 gap-y-8">
+    {
+      posts.map((post) => (
+        <a href={`/blog/${post.slug}/`}>
+          <div class="p-3 p-b-8 text-3xl h-full font-public font-thin">
+            <img src={post.data.heroImage} alt={post.data.description} class=" mb-4">
+            {post.data.title}
+          </div>
+        </a>
+      ))
+    }
+  </section>
+</BaseLayout>
+
+<style>
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+</style>

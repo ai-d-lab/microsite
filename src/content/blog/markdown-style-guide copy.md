@@ -1,8 +1,8 @@
 ---
-title: "Markdown Style Guide"
+title: "Markdown Style Guide that helps you to create simple styling."
 description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
 pubDate: "Jul 01 2022"
-heroImage: "/placeholder-hero.jpg"
+heroImage: "/4.jpg"
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
