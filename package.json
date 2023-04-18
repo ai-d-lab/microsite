@@ -24,12 +24,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ai-d-lab/ai-d-lab.git"
+    "url": "git+https://github.com/ai-d-lab/ai-d-lab.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ai-d-lab/ai-d-lab/issues"
+    "url": "https://github.com/ai-d-lab/ai-d-lab.github.io/issues"
   },
-  "homepage": "https://github.com/ai-d-lab/ai-d-lab#readme"
+  "homepage": "https://github.com/ai-d-lab/ai-d-lab.github.io#readme"
 }
