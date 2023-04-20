@@ -1,0 +1,19 @@
+---
+
+---
+
+
+
+
+<div>
+    <img src="/logo/1.png" id="rndlogo" class="mx-auto aspect-[4/3] w-80 md:w-96 mt-4 ">
+</div>
+
+
+<script>
+    const random = Math.floor(Math.random() * 8) + 1
+    let randomLogo = document.getElementById("rndlogo");
+    randomLogo.src = `/logo/${random}.png`;
+
+    console.log(random)
+</script>
