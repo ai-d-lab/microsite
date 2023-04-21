@@ -2,12 +2,17 @@
 import HeaderLink from "./HeaderLink.astro";
 import Logo from "./Logo.astro";
 import { SITE_TITLE } from "../consts";
+import { date } from "astro/zod";
+const l = new Date(); // use l for the date object
+let d = "/logo/" + ((l.getSeconds() % 7) +1).toString() + ".png" ; // use d for the logo string
 ---
+
+
 
 <header class="before:absolute before:backdrop-blur-lg before:-z-10 before:-inset-1 before:gradient-mask-b-50 min-h-full sticky top-0 bg-gradient-to-b from-white via-white/50 to-white/0
 
 ">
-  <Logo/>
+  <Logo logo={d} />
   <div class="flex gap-4 h-12 max-w-md mx-auto md:max-w-2xl w-full sm:mb-0">
     <!-- <HeaderLink href="/">Home</HeaderLink> obsolute link to main-->
     <HeaderLink href="/blog">Blog</HeaderLink>
