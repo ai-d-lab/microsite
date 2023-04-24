@@ -1,11 +1,10 @@
----
-const { logo } = Astro.props;
----
-
-
-
-
-<div>
-    <img src={ logo } id="rndlogo" class="mx-auto aspect-[4/3] w-80 md:w-96 mt-4 ">
+<div class="h-[197]">
+  <img id="rndlogo" class="mx-auto w-80 md:w-96 mt-4" />
 </div>
-
+{}
+<script is:inline>
+  // replace the logo with a random src
+  let l = new Date(); // use l for the date object
+  let src = "/logo/" + ((l.getSeconds() % 7) + 1).toString() + ".png"; // use d for the logo string
+  document.getElementById("rndlogo").src = src;
+</script>
