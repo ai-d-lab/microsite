@@ -2,7 +2,7 @@
 name: "Aeneas Stankowski"
 joined: "Oct 01 2022"
 left: ""
-portrait: "/rahel.jpg"
+portrait: "/rahel_flechtner.jpg"
 draft: false
 ---
 

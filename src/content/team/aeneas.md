@@ -2,7 +2,7 @@
 name: "Aeneas Stankowski"
 joined: "Oct 01 2022"
 left: ""
-portrait: "/aeneas.jpg"
+portrait: "/aeneas_stankowski.jpg"
 draft: false
 ---
 
