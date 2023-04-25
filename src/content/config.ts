@@ -18,4 +18,28 @@ const blog = defineCollection({
 	}),
 });
 
-export const collections = { blog };
+/*
+name: "Aeneas Stankowski"
+joined: "Oct 01 2022"
+left: ""
+portrait: "/aeneas_stankowski.jpg"
+draft: false
+*/
+const team = defineCollection({
+	// Type-check frontmatter using a schema
+	schema: z.object({
+		name: z.string(),
+		joined: z
+			.string()
+			.or(z.date())
+			.transform((val) => new Date(val)),
+		left: z
+			.string()
+			.optional()
+			.transform((str) => (str ? new Date(str) : undefined)),
+		portrait: z.string().optional(),
+		draft: z.boolean(),
+	}),
+});
+
+export const collections = { blog, team };

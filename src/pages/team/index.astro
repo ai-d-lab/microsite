@@ -3,21 +3,25 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
 
-const members = (await getCollection("team")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
-);
+const members = await getCollection("team");
 
 // the posts are displayed in a grid layout, with 3 columns depending on the screen size
 // each post has the same height, if there is more text than the other posts, the text will be cut off
 ---
 
 <BaseLayout>
-  <section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-2 mt-0 gap-y-8">
+  <section
+    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-2 mt-0 gap-y-8"
+  >
     {
       members.map((member) => (
         <a href={`/team/${member.slug}/`}>
-          <div class="p-3 p-b-8 text-3xl h-full font-public font-thin">
-            <img src={member.data.portrait} alt={member.data.name} class=" mb-4">
+          <div class="p-3 text-3xl h-full font-public font-thin">
+            <img
+              src={member.data.portrait}
+              alt={member.data.name}
+              class=" mb-4"
+            />
             {member.data.title}
           </div>
         </a>
