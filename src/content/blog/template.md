@@ -3,6 +3,7 @@ title: "Insert full tilte here"
 description: "Abstract bitte hier."
 pubDate: "Jul 01 2022"
 heroImage: "/1.jpg"
+tags: tags, here
 draft: true
 ---
 
