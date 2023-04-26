@@ -23,5 +23,6 @@ p {
 table, tr, td, th {
 	@apply rounded-xl border-gray-100 border-2 mx-auto w-3/4;
 }
+
 }
 

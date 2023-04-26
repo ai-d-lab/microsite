@@ -3,13 +3,14 @@ import HeaderLink from "./HeaderLink.astro";
 import Logo from "./Logo.astro";
 import { SITE_TITLE } from "../consts";
 import { date } from "astro/zod";
+import ThemeIcon from './ThemeIcon.astro';
 ---
 
 <header
-  class="before:absolute before:backdrop-blur-lg before:-z-10 before:-inset-1 before:gradient-mask-b-50 min-h-full sticky top-0 bg-gradient-to-b from-white via-white/50 to-white/0"
->
-  <Logo />
-  <div class="flex gap-4 h-12 max-w-md mx-auto md:max-w-2xl w-full sm:mb-0">
+  class="before:absolute before:backdrop-blur-lg before:-z-10 before:-inset-1 before:gradient-mask-b-50 min-h-full sticky top-0 bg-gradient-to-b from-white via-white/50 to-white/0 dark:from-black dark:via-black/50"
+>    <ThemeIcon class="inline" />
+  <Logo/>
+  <div class="flex gap-4 h-12 max-w-md mx-auto md:max-w-2xl w-full sm:mb-0 px-0 ">
     <!-- <HeaderLink href="/">Home</HeaderLink> obsolute link to main-->
     <HeaderLink href="/blog">Blog</HeaderLink>
     <HeaderLink href="/team">Team</HeaderLink>
