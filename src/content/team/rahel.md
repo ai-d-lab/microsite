@@ -1,5 +1,5 @@
 ---
-name: "Aeneas Stankowski"
+name: "Rahel Flechtner"
 joined: "Oct 01 2022"
 left: ""
 portrait: "/rahel_flechtner.jpg"
