@@ -16,7 +16,7 @@ h4,h5,h6 {
 	@apply text-2xl font-light;
 };
 
-p {
+p {						
 	@apply font-public text-lg font-light md:text-xl;
 }; 
 
