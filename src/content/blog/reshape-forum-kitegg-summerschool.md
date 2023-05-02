@@ -1,0 +1,43 @@
+---
+title: "reshape forum (10-12 May 2023)"
+subtitle: "Join us at the 3rd KITeGG summer school at HfG Schwäbisch Gmünd"
+description: "..."
+pubDate: "May 02 2023"
+author: "Alexa Steinbrück"
+heroImage: "/reshape-banner.jpg"
+tags: Artificial Intelligence, KITeGG
+draft: true
+---
+
+It’s summer again! ⛱️ Join us for the 3rd KITeGG summer school, which is hosted for the first time by HfG Schwäbisch Gmünd and organized by AI+D Lab.
+
+##
+
+From the 10th to the 12th of May various talks and panels on the future of AI and Design will be held at the Auditorium of the HfG Schwäbisch Gmünd.
+
+In advance, from the 8th to the 10th of May, students are able to participate in a diverse range of AI-focused workshops held by educators from the KITeGG partner universities (Cologne, Mainz and Trier)!
+
+# Wednesday
+
+We will kick off the symposium on Wednesday afternoon with a warm welcome from the organizer team, followed by a guided tour of the university to get to know the host university of this year's KITeGG summer school. After we have warmed up our limbs in this way, we will gather in the Aula for the most exciting event of the year - a [“Prompt Battle”](https://promptbattle.com/) (5-7 pm), a live event where people compete against each other using text-to-image software and the audience is the judge (prepare to move your feet)! We end the evening with a relaxing (and vegan-friendly) barbecue in the courtyard of HfG.
+
+# Thursday
+
+The schedule on Thursday will be packed! We are looking forward to an inspiring list of talks from international experts working and thinking in the field of the intersection of AI and design: From 👩‍🔧[Nadia Piet](https://nadiapiet.com/), the founder of the flourishing online community [AIxDesign](https://www.aixdesign.co/) we will hear her thoughts on the “UX of AI” and the various challenges posed by these adaptive, intelligent, and semi-autonomous systems for designers. Followed by 👩‍💻[Catherine Breslin](https://www.catherinebreslin.co.uk/about), a renowned expert in the field of Conversational AI, who has been in the founding team of Amazon Alexa: How does the way people converse with each other inspire the design of voice assistant technology and how do Large Language Models (LLM) reshape this field of application? Before the lunch break, we will hear from 👩‍💻[Ploipailin Flynn](https://ploipail.in/) on how she got tired of well-designed tech products and AI-based services that turned “accidentally racist” and get to know resources, tools and design principles for addressing discrimination in tech.
+
+##
+
+On Thursday afternoon, we will hear from Brooklyn-based UX researcher and strategist 👩‍💻[Emily Saltz](https://www.emilysaltz.space/) on how generative AI technologies and synthetic media demand new mechanisms for safety considerations and UX best practices. We will continue with a panel discussion 👯 “AI Industry - professional requirements and fields of activity for designers”. The day will be rounded off by a talk by members of 👨‍💻[oio studio](https://oio.studio/) (London) in which they present their fun and thought-provoking work on “future products and tools for a less-boring future”.
+
+# Friday
+
+On Friday morning we will start the programme with a talk by 🤹‍♂️[Simon Maris](https://www.linkedin.com/in/simon-maris-749506197) (from our KITeGG partner university Trier) on sustainability, design and AI. He will be followed by 👨‍💻[Tom White](https://aiartists.org/tom-white), an artist based in New Zealand, who has been active in computational art for more than two decades with themes of artificial intelligence, interactivity, and computational creativity.
+
+At 12 pm we will do a bit of self-reflection in the panel 👯“KITeGG: Learnings from one year of AI education at Art & Design schools”. For more than a year, the 5 participating universities have now gathered concrete experience in teaching, demystifying and unpacking AI. What can they report? To close off the symposium we will enjoy a presentation of the results of the four student workshops from the beginning of the week while enjoying some 🍕 Pizza!
+
+# We're looking forward to welcoming you in Schwäbisch Gmünd!
+
+🌐 Find the full programme at:
+[reshapeforum.de](https://reshapeforum.de)
+
+✅ The event is free and open to everybody. Thank you for registering online [here](https://www.eventbrite.com/e/reshape-forum-for-artificial-intelligence-in-art-and-design-tickets-616705341277)
