@@ -8,14 +8,14 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 
 <!DOCTYPE html>
 
-<html lang="en" class="dark">
+<html lang="en" class="dark min-w-full m-0 p-0">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
-  <body class="min-w-full bg-white dark:bg-stone-900">
+  <body class="min-w-full m-0 p-0 bg-white dark:bg-stone-900">
 
     <Header title={SITE_TITLE} />
-    <main class="max-w-lg my-12 mx-auto md:max-w-2xl lg:max-w-4xl dark:p-2">
+    <main class="max-w-lg my-0 pt-56 xl:pt-72 md:pt-64 mx-auto md:max-w-2xl lg:max-w-4xl p-2 w-full">
       <slot />
     </main>
     <Footer />

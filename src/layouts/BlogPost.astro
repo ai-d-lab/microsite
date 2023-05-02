@@ -13,7 +13,7 @@ const { title, subtitle, author, description, pubDate, updatedDate, heroImage } 
 
 <BaseLayout>
   <article class="max-w-2xl mx-auto">
-    {heroImage && <img width={720} height={360} src={heroImage} alt="" class="mx-auto"/>}
+    {heroImage && <img width={720} height={360} src={heroImage} alt="" class="mx-auto rounded-xl"/>}
     <h1>{title}</h1>
     <h2>{subtitle}</h2>
     <FormattedDate date={pubDate} /><authors>{author}</authors>
