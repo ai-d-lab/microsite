@@ -10,17 +10,19 @@ const members = await getCollection("team");
 ---
 
 <BaseLayout>
-  <section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-2 mt-0 gap-y-8">
+  <section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-2 mt-0 gap-y-8 dark:text-white">
     {
       members.map((member) => (
         <a href={`/team/${member.slug}/`}>
-          <div class="p-0 text-3xl full font-public font-thin">
+          <div class="text-3xl full font-public font-thin">
             <img
               src={member.data.portrait}
               alt={member.data.name}
-              class="mb-2"
+              class="mb-2 rounded-2xl  dark:shadow-white"
             />
           </div>
+          <h1 class="text-2xl my-0">{member.data.name}</h1>
+          <h2 class="text-xl my-0 py-0">{member.data.title}</h2>
         </a>
       ))
     }
