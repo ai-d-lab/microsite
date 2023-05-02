@@ -7,7 +7,8 @@ tags: Design Education, Artificial Intelligence
 draft: true
 ---
 
-
+# AI Is Not a Wildcard! 
+## Summary On Challenges and Thoughts on How to Integrate AI into the Design Curriculum
 
 Within the last year, we observed a growing interest among students in incorporating AI into design. However, we have also noticed that AI technologies are sometimes used as “wildcards” in the design process. The insufficient understanding of AI‘s capabilities and limitations often results in unrealistic design proposals. 
 Design education should equip students with the necessary knowledge and skills to engage with AI technologies in a meaningful way in their design processes. However, advising students on this topic requires a comprehensive understanding of AI, which places significant demands on educators. In the paper “AI is not a wildcard: Challenges in integrating AI into the design curriculum”, submitted to EduChi23, we shared and discussed our thoughts and first experiences on integrating AI in the design curriculum. In the following article, we highlight the most important points from the paper. For more information, please read the paper [1] cited below.
