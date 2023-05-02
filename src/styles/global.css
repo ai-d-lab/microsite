@@ -7,10 +7,10 @@ body {
 	@apply text-black dark:text-gray-200;
 };
 h1 {
-	@apply text-4xl font-bold py-4 w-full my-4;
+	@apply text-4xl font-bold py-4 w-full my-2;
 };
 h2 {
-	@apply text-3xl font-bold py-3 my-2;
+	@apply text-3xl text-stone-400 font-bold py-3 my-2;
 };
 h3 {
 	@apply text-2xl font-bold py-2 my-2;
@@ -25,9 +25,17 @@ p {
 
 table, tr, td, th {
 	@apply rounded-xl border-gray-100 border-2 mx-auto w-3/4;
-}
+};
 a {
 	@apply font-bold text-gray-400 dark:text-gray-300;
+};
+
+hr {
+	@apply my-4;
+};
+blockquotes {
+	@apply text-9xl;
 }
 }
+
 
