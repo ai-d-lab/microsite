@@ -4,7 +4,7 @@ subtitle: "Summary On Challenges and Thoughts on How to Integrate AI into the De
 description: "In the last years, there has been a growing interest among design students in incorporating AI into their work. However, insufficient understanding of AI's capabilities and limitations often leads to unrealistic design proposals. To address this, design education needs to equip students with the necessary knowledge and skills to engage with AI technologies in a meaningful way. In this article we summarize our thoughts and experiences on integrating AI into the design curriculum."
 pubDate: "Apr 26 2023"
 author: "Rahel Flechtner, Aeneas Stankowski"
-heroImage: "/wildcard.png"
+heroImage: "/wildcard.jpg"
 tags: Design Education, Artificial Intelligence
 draft: true
 ---
