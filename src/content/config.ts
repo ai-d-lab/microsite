@@ -31,6 +31,7 @@ const team = defineCollection({
 	// Type-check frontmatter using a schema
 	schema: z.object({
 		name: z.string(),
+		title: z.string(),
 		joined: z
 			.string()
 			.or(z.date())

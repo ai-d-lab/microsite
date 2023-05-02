@@ -1,9 +1,9 @@
 ---
-name: "Maria Musterfrau"
+name: "Alexa Steinbrück"
 title: "Researcher"
 joined: "Oct 01 2022"
 left: ""
-portrait: "/firstname_lastname.jpg"
+portrait: "/team/firstname_lastname.jpg"
 draft: true
 ---
 

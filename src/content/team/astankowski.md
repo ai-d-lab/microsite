@@ -1,8 +1,10 @@
 ---
 name: "Aeneas Stankowski"
 joined: "Oct 01 2022"
+title: "Visiting Professor"
 left: ""
-portrait: "/aeneas_stankowski.jpg"
+mail: "aeneas.stankowski@hfg.design"
+portrait: "/team/firstname_lastname.jpg"
 draft: false
 ---
 

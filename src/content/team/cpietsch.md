@@ -1,6 +1,7 @@
 ---
 name: "Christopher Pietsch"
 joined: "March 01 2023"
+title: "Researcher"
 left: ""
 portrait: "/chrispie.jpg"
 draft: false

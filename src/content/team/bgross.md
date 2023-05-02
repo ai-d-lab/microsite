@@ -1,0 +1,17 @@
+---
+name: "Benedikt Groß"
+joined: "Oct 01 2022"
+title: "Project Lead"
+left: ""
+portrait: "/team/firstname_lastname.jpg"
+draft: true
+---
+Appointed in 2017 for interaction design. Benedikt Groß is a speculative and computational designer who works antidisciplinarily. He is a professor of Strategic and Interaction Design at the HfG Schwäbisch Gmünd.
+
+His work deals with the fascination of relationships between people, their data, technology and environments. He is particularly interested to speculate about these relationships in the near future. He uses design as a vehicle to visualize potential implications and scenarios.
+
+He holds an M.A. in Design Interactions (under Anthony Dunne) from the Royal College of Art London, a Diploma in Information & Media from the HfG Schwäbisch Gmünd. He is Alumnus of the MIT Senseable City Lab and the STUDIO for Creative Inquiry at Carnegie Mellon University. He is co-author of “Generative Gestaltung” and “Zukünfte gestalten”, both are considered being standard books in the field of computational designand design futuring, with translations for “Generative Gestaltung” to English (Princeton Architectural Press), French (Editions Pyramid) and Japanese (BNN).
+
+Benedikt’swork has been published widely and exhibited internationally. Some notable features include publications in WIRED, CAN, Page, Form, Fast Co.Design, Spiegel Online, Guardian, IEEE VIS and exhibitions at the Japanese Media Arts Festival, Ars Electronica, V2_ & the New Institute, Open Data Institute, and the Node Festival. Benedikt has beenrecognised with awards such as the IxDA Best Concept, Excellence Award of the Japanese Media Arts Festival, Information is Beautiful Award Silver, Honorary Mention Prix Ars Electronica and German Design Award. Furthermore, Benedikt has taught and lectured internationally.
+
+Since 2019, he has been head of the Master's programme in Strategic Design.
