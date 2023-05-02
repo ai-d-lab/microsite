@@ -1,7 +1,9 @@
 ---
 title: "fourth post"
 description: "Lorem ipsum dolor sit amet"
+subtitle: "Summary On Challenges and Thoughts on How to Integrate AI into the Design Curriculum"
 pubDate: "Jul 15 2022"
+author: ""
 heroImage: "/3.jpg"
 ---
 

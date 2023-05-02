@@ -1,5 +1,7 @@
 ---
 title: "The Cultural and Social Effects of AI Design: A Comparative Perspective"
+subtitle: "Summary On Challenges and Thoughts on How to Integrate AI into the Design Curriculum"
+author: ""
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Jul 08 2022"
 heroImage: "/7.jpg"

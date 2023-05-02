@@ -1,7 +1,9 @@
 ---
 title: "Markdown Style Guide that helps you to create simple styling."
+subtitle: "Summary On Challenges and Thoughts on How to Integrate AI into the Design Curriculum"
 description: "Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro."
 pubDate: "Jul 01 2022"
+author: ""
 heroImage: "/9.jpg"
 ---
 

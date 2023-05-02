@@ -4,7 +4,7 @@ import { getCollection } from "astro:content";
 import FormattedDate from "../../components/FormattedDate.astro";
 
 const posts = (await getCollection("blog")).sort(
-  (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
 
 // the posts are displayed in a grid layout, with 3 columns depending on the screen size
@@ -18,13 +18,14 @@ const posts = (await getCollection("blog")).sort(
     {
       posts.map((post) => (
         <a href={`/blog/${post.slug}/`}>
-          <div class="p-3 p-b-8 text-3xl h-full font-public font-thin">
+          <div class="p-3 p-b-8 text-3xl h-full font-public font-thin text-black dark:text-gray-200">
             <img
               src={post.data.heroImage}
               alt={post.data.description}
               class=" mb-4"
             />
             {post.data.title}
+            <h3 class="font-normal text-stone-500">{post.data.subtitle}</h2>
           </div>
         </a>
       ))

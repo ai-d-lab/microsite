@@ -1,8 +1,10 @@
 ---
 title: "Insert full tilte here"
+subtitle: ""
 description: "Abstract bitte hier."
 pubDate: "Jul 01 2022"
 heroImage: "/1.jpg"
+author: "AI+D Lab"
 tags: tags, here
 draft: true
 ---

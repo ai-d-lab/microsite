@@ -1,6 +1,8 @@
 ---
 title: "KIteGG Summer School is opening on monday with very boring workshops"
+subtitle: "Summary On Challenges and Thoughts on How to Integrate AI into the Design Curriculum"
 description: "Lorem ipsum dolor sit amet"
+author: ""
 pubDate: "Jul 15 2022"
 heroImage: "/6.jpg"
 ---

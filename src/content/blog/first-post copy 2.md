@@ -1,5 +1,7 @@
 ---
 title: "Leveraging AI Design for Social Innovation: A Framework and Case Studies"
+subtitle: "Summary On Challenges and Thoughts on How to Integrate AI into the Design Curriculum"
+author: ""
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Jul 08 2022"
 heroImage: "/8.jpg"
