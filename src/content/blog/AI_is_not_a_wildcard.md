@@ -1,5 +1,6 @@
 ---
-title: "AI Is Not a Wildcard! – Summary On Challenges and Thoughts on How to Integrate AI into the Design Curriculum"
+title: "AI Is Not a Wildcard!"
+subtitle: "Summary On Challenges and Thoughts on How to Integrate AI into the Design Curriculum"
 description: "In the last years, there has been a growing interest among design students in incorporating AI into their work. However, insufficient understanding of AI's capabilities and limitations often leads to unrealistic design proposals. To address this, design education needs to equip students with the necessary knowledge and skills to engage with AI technologies in a meaningful way. In this article we summarize our thoughts and experiences on integrating AI into the design curriculum."
 pubDate: "Apr 26 2023"
 heroImage: "/1.jpg"
@@ -7,8 +8,6 @@ tags: Design Education, Artificial Intelligence
 draft: true
 ---
 
-# AI Is Not a Wildcard! 
-## Summary On Challenges and Thoughts on How to Integrate AI into the Design Curriculum
 
 Within the last year, we observed a growing interest among students in incorporating AI into design. However, we have also noticed that AI technologies are sometimes used as “wildcards” in the design process. The insufficient understanding of AI‘s capabilities and limitations often results in unrealistic design proposals. Design education should equip students with the necessary knowledge and skills to engage with AI technologies in a meaningful way in their design processes.  
 However, advising students on this topic requires a comprehensive understanding of AI, which places significant demands on educators. In the paper “AI is not a wildcard: Challenges in integrating AI into the design curriculum”, submitted to EduChi23, we shared and discussed our thoughts and first experiences on integrating AI in the design curriculum. In the following article, we highlight the most important points from the paper. For more information, please read the paper [\[1\]](#ressources) cited below.
@@ -20,6 +19,7 @@ The aim of our project is to integrate AI technologies into the design curriculu
 However, they should also be aware of the possible consequences of implementing AI technologies and evaluate if it is possible to mitigate or avert possible side effects by design. They must be able to use speculative and conceptual approaches consciously instead of using AI as a wildcard, and should develop a precise language for communicating about AI topics.
 
 Our observations have shown that approaches to developing and applying AI intuition are often taught in separate course formats that may not be connected. As a result, foundation courses often lack meaningful connections to other formats such as studio courses. Follow-up formats for the application of AI, in turn, can only be effective if educators can supervise them in a qualified way. We see the high demands that AI technology places on educators as one of the biggest challenges to be overcome when structurally integrating AI education into the design curriculum.  
+
 At the University of Design Schwäbisch Gmünd we test the format of an AI-lab as a place of specialization to overcome this challenge. The AI+Design Lab offers entry-level formats for building an AI intuition in primary teaching and is linked to studio education and project-based teaching. The lab provides students with technical support and advice for their projects and serves as a contact point for educators to learn and discuss the technology. With our paper, we aim to inspire further research and discussion on integrating AI into design education.
 
 #### Ressources 
