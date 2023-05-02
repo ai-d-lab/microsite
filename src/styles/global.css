@@ -7,25 +7,27 @@ body {
 	@apply text-black dark:text-gray-200;
 };
 h1 {
-	@apply text-4xl font-bold py-4 w-full;
+	@apply text-4xl font-bold py-4 w-full my-4;
 };
 h2 {
-	@apply text-3xl font-bold py-3;
+	@apply text-3xl font-bold py-3 my-2;
 };
 h3 {
-	@apply text-2xl font-bold py-2;
+	@apply text-2xl font-bold py-2 my-2;
 };
 h4,h5,h6 {
-	@apply text-2xl font-light;
+	@apply text-2xl font-light my-2;
 };
 
 p {						
-	@apply font-public text-lg font-light md:text-xl;
+	@apply font-public text-lg font-light md:text-xl my-4;
 }; 
 
 table, tr, td, th {
 	@apply rounded-xl border-gray-100 border-2 mx-auto w-3/4;
 }
-
+a {
+	@apply font-bold text-gray-400 dark:text-gray-300;
+}
 }
 
