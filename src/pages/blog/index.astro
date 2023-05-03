@@ -13,12 +13,24 @@ const posts = (await getCollection("blog")).sort(
 
 <BaseLayout>
   <section
-    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-2 mt-0 gap-y-8 dark:text-white"
+    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-2 mt-4 gap-y-8 dark:text-white"
   >
+  <div class="h-full gap-3 col-span-2 mx-2 rounded-xl bg-stone-100 dark:bg-stone-800 grid grid-cols-1 md:grid-cols-2" id="featured">
+    <div class="h-96 overflow-hidden rounded-t-xl md:rounded-tr-none md:rounded-s-xl ">
+      <img src=/1.jpg class="">
+    </div>
+    <div class="h-96 px-12">
+<h1>Welcome frems</h1>
+<h2>this is our websiet, its nu</h2>
+<p class=" md:line-clamp-4 xl:line-clamp-6">We are the new lab at the hfg, we are happy to be here, click for about page, where you well get additional information that is very helfpul and also nice xyz this and that until line 6 and maybe even more? no not</p>
+    </div>
+
+  </div>
     {
       posts.map((post) => (
-        <a href={`/blog/${post.slug}/`}>
+        
           <div class="pb-8 px-2 text-3xl h-full font-public font-thin text-black dark:text-gray-200">
+            <a href={`/blog/${post.slug}/`}>
             <img
               src={post.data.heroImage}
               alt={post.data.description}
@@ -26,8 +38,9 @@ const posts = (await getCollection("blog")).sort(
             />
             <h2 class="text-black dark:text-white pt-4">{post.data.title}</h>
             <h3 class="font-normal text-stone-500">{post.data.subtitle}</h2>
+              </a>
           </div>
-        </a>
+        
       ))
     }
   </section>
