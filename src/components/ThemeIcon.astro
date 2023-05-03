@@ -1,11 +1,18 @@
 ---
 ---
 
-<label class="absolute inline-flex items-center mb-0 ml-4 cursor-pointer">
-    <input type="checkbox" id ="toggleswitch" value="" class="sr-only peer">
-    <div class="absolute w-9 h-5 inline bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-gray-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-gray-600"></div>
-    <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300 pl-12">v0.41</span>
-  </label>
+<label
+  class="absolute inline-flex items-center mb-0 ml-4 cursor-pointer left-0 top-2"
+>
+  <input type="checkbox" id="toggleswitch" value="" class="sr-only peer" />
+  <div
+    class="absolute w-9 h-5 inline bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-gray-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all dark:border-gray-600 peer-checked:bg-gray-600"
+  >
+  </div>
+  <span class="ml-3 text-sm font-medium text-gray-900 dark:text-gray-300 pl-12"
+    >v0.41</span
+  >
+</label>
 <script is:inline>
   const toggleswitch = document.getElementById("toggleswitch");
 
@@ -16,16 +23,13 @@
   checkmode();
 
   function tgldark() {
-    if(toggleswitch.checked){
-    localStorage.theme = 'dark';
-    
-} else {
-
-    localStorage.theme = 'light';
-} 
-checkmode();
+    if (toggleswitch.checked) {
+      localStorage.theme = "dark";
+    } else {
+      localStorage.theme = "light";
+    }
+    checkmode();
   }
-
 
   function checkmode() {
     if (
@@ -38,5 +42,5 @@ checkmode();
     } else {
       document.documentElement.classList.remove("dark");
     }
-  };
+  }
 </script>

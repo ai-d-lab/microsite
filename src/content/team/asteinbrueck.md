@@ -3,7 +3,7 @@ name: "Alexa Steinbrück"
 title: "Researcher"
 joined: "Oct 01 2022"
 left: ""
-portrait: "/team/firstname_lastname.jpg"
+portrait: "/team/ai-d-portrait-alexa.jpg"
 draft: true
 ---
 

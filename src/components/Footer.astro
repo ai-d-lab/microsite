@@ -1,13 +1,11 @@
 ---
 const today = new Date();
-import ThemeIcon from './ThemeIcon.astro';
-
+import ThemeIcon from "./ThemeIcon.astro";
 ---
 
-<footer>
+<footer class="max-w-lg mx-auto md:max-w-2xl lg:max-w-4xl p-2 w-full">
   <ThemeIcon class="" />
   <p>
-  &copy; {today.getFullYear()} AI+D Lab HfG Schwäbisch Gmünd
-</p>
+    &copy; {today.getFullYear()} AI+D Lab HfG Schwäbisch Gmünd
+  </p>
 </footer>
-
