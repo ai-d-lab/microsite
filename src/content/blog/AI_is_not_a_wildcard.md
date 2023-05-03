@@ -5,6 +5,8 @@ description: "In the last years, there has been a growing interest among design 
 pubDate: "Apr 26 2023"
 author: "Rahel Flechtner, Aeneas Stankowski"
 heroImage: "/wildcard.jpg"
+// please mention here if image is "white", "black" or neither "" so a border can be added in case
+bwimage: ""
 tags: Design Education, Artificial Intelligence
 draft: true
 ---
