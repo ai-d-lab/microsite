@@ -4,7 +4,7 @@ joined: "Oct 01 2022"
 title: "Visiting Professor"
 left: ""
 mail: "aeneas.stankowski@hfg.design"
-portrait: "/team/firstname_lastname.jpg"
+portrait: "/team/ai-d-portrait-aeneas.jpg"
 draft: false
 ---
 

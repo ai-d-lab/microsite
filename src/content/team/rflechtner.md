@@ -3,7 +3,7 @@ name: "Rahel Flechtner"
 title: "Visiting Professor"
 joined: "Oct 01 2022"
 left: ""
-portrait: "/rahel_flechtner.jpg"
+portrait: "/team/ai-d-portrait-rahel.jpg"
 draft: false
 ---
 
