@@ -7,6 +7,7 @@ author: "Alexa Steinbrück"
 heroImage: "/reshape-banner.jpg"
 tags: Artificial Intelligence, KITeGG
 draft: true
+featured: false
 ---
 
 It’s summer again! ⛱️ Join us for the 3rd KITeGG summer school, which is hosted for the first time by HfG Schwäbisch Gmünd and organized by AI+D Lab.
