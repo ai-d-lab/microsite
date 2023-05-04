@@ -23,7 +23,7 @@ const features = (await getCollection("features")).sort(
   <div id="clickfeature" class="gap-3 md:col-span-2 mx-2 rounded-xl shadow-[inset_0px_0px_0px_rgba(0,0,0,0.6)] shadow-white bg-stone-100 dark:bg-stone-800 grid grid-cols-1 md:grid-cols-2" id="featured">
     
     <div class="overflow-hidden rounded-t-xl md:rounded-tr-none md:rounded-s-xl ">
-      <a class="inline" href={`/blog/${features[0].slug}/`}>
+      <a class="inline" href={`/features/${features[0].slug}/`}>
       <img
          src={features[0].data.heroImage}
          alt={features[0].data.description} 
