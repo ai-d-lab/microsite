@@ -44,8 +44,8 @@ By consecutively generating you sandwiches with different toppings, and then adj
 <br/>
 You can try it out yourself on the following links. Feel free to use it in your own classes and come up with your own adaptations - the code is provided via the p5js sandbox. We will follow up our initial tests with students with her GitHub repository that you will find here later.
 
-<div style="display: block; height: 700px; margin: 20px 0px 20px 0px; z-index: -100;!important">
-    <iframe style="display: block; z-index: 0; position: absolute; width: 80vw; height: 700px; left: 10vw; border: 1px solid black" src="https://editor.p5js.org/FelixSewing/full/Fwn5E_dDk"></iframe>
+<div style="display: block; height: 43.75rem; margin: 1.25rem 0 1.25rem 0; z-index: 1;!important">
+    <iframe style="display: block; z-index: 0; position: absolute; width: 80vw; height: 43.75rem; left: 10vw; border: 1px solid black" src="https://editor.p5js.org/FelixSewing/full/Fwn5E_dDk"></iframe>
 </div> 
 
 #### Ressources 
