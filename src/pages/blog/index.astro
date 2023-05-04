@@ -6,24 +6,41 @@ import FormattedDate from "../../components/FormattedDate.astro";
 const posts = (await getCollection("blog")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+const features = (await getCollection("features")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 
 // the posts are displayed in a grid layout, with 3 columns depending on the screen size
 // each post has the same height, if there is more text than the other posts, the text will be cut off
 ---
 
 <BaseLayout>
+  
   <section
     class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-2 mt-4 gap-y-8 dark:text-white"
   >
+<!--  <a href={`/blog/${features.slug}/`}>  -->
   <div class="h-full gap-3 col-span-2 mx-2 rounded-xl bg-stone-100 dark:bg-stone-800 grid grid-cols-1 md:grid-cols-2" id="featured">
+
     <div class="h-96 overflow-hidden rounded-t-xl md:rounded-tr-none md:rounded-s-xl ">
-      <img src=/1.jpg class="">
+      <img
+         src={features[0].data.heroImage}
+         alt={features[0].data.description} 
+         class="">
+
+
+
+
     </div>
     <div class="h-96 px-12">
-<h1>Welcome frems</h1>
-<h2>this is our websiet, its nu</h2>
-<p class=" md:line-clamp-4 xl:line-clamp-6">We are the new lab at the hfg, we are happy to be here, click for about page, where you well get additional information that is very helfpul and also nice xyz this and that until line 6 and maybe even more? no not</p>
-    </div>
+<h1>{features[0].data.title}</h1>
+<h2>{features[0].data.subtitle}</h2>
+    
+
+
+</div>
+
+
 
   </div>
     {

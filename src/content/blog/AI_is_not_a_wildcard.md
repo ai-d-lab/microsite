@@ -7,6 +7,7 @@ author: "Rahel Flechtner, Aeneas Stankowski"
 heroImage: "/wildcard.jpg"
 tags: Design Education, Artificial Intelligence
 draft: true
+featured: false
 ---
 
 

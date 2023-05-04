@@ -7,6 +7,8 @@ heroImage: "/1.jpg"
 author: "AI+D Lab"
 tags: tags, here
 draft: true
+featured: false
+
 ---
 
 
