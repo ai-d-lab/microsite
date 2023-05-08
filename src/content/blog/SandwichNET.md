@@ -4,7 +4,7 @@ subtitle: "An interactive tool to teach and understand the training process of n
 description: "Inspired by a particularly simple and memorable example from the textbook: 'You Look like a Thing and I Love You' from Janelle Shane (Wildfire, 2020), we implemented a tool which enables students to imitate the behavior of a training algorithm."
 pubDate: "Mar 04 2023"
 author: "Felix Sewing, Aeneas Stankowski"
-heroImage: "/SandwichNET_hero_img.png"
+heroImage: "/sandwich.jpg"
 tags: Design Education, Artificial Intelligence
 draft: false
 ---
@@ -15,6 +15,8 @@ Teaching neural nets and machine learning to students of non-technical disciplin
 While already quite complex, the students often struggle less to understand the resulting model and its functionality - a parametric model consisting of thousands to billions of parameters which are configured in a way to output, correct approximate predictions.
 
 When looking deeper into what is the overarching principle that makes modern machine learning algorithms possible, understanding the back propagation algorithm is central.
+
+![An image of the SandwichNET interface.](/SandwichNET_hero_img.jpg)
 
 Inspired by a particularly simple and memorable example from the textbook: "You Look like a Thing and I Love You" from Janelle Shane (Wildfire, 2020), we implemented a tool which enables students to imitate the behavior of a training algorithm.
 
