@@ -8,9 +8,7 @@ author: "AI+D Lab"
 tags: tags, here
 draft: true
 featured: false
-
 ---
-
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
 
@@ -38,7 +36,7 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 
 ## Images
 
-![This is a placeholder image description](/placeholder-social.jpg)
+![This is a placeholder image description](/social.jpg)
 
 ## Blockquotes
 
