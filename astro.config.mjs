@@ -7,5 +7,11 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://ai-d-lab.github.io",
   base: "/",
+  experimental: {
+    assets: true,
+  },
+  image: {
+    service: "astro/assets/services/sharp",
+  },
   integrations: [mdx(), sitemap(), tailwind()],
 });
