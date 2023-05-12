@@ -31,5 +31,18 @@ import { date } from "astro/zod";
   document.getElementById("rndlogo").src = src;
 
 </script>
+<script>
+window.addEventListener("scroll", function() {
+    var nav = document.getElementById("nv");
+    var scrollPosition = window.scrollY;
 
+    if (scrollPosition > 100) {
+      nav.classList.add("w-96", "mr-[28rem]", "-translate-y-24");
+      nav.classList.remove("w-full");
+    } else {
+      nav.classList.add("w-full");
+      nav.classList.remove("w-96", "mr-[28rem]");
+    }
+  });
+</script>
 </header>
