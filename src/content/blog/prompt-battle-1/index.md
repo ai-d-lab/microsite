@@ -1,8 +1,8 @@
 ---
 title: "Prompt Battle"
 subtitle: "First Prompt Battle at the AI+Design Lab"
-description: "On Wednesday, the AI+Design Lab at the HFG held its grand opening. The evening began with a cozy exchange of ideas, drinks, and snacks, followed by the highly anticipated Prompt Battle. The Prompt Battle was a humorous contest where participants went head to head, using text prompts to generate images through a KI software. The audience then decided which image was the winner. It was a great night of creativity, laughs, and a bit of healthy competition."
-pubDate: "Apr 10 2023"
+description: "On Wednesday, the AI+Design Lab at the HFG held its grand opening. The evening began with a cozy exchange of ideas, drinks, and snacks, followed by the highly anticipated Prompt Battle. The Prompt Battle was a humorous contest where participants went head to head, using text prompts to generate images through a AI software. The audience then decided which image was the winner. It was a great night of creativity, laughs, and a bit of healthy competition."
+pubDate: "March 30 2023"
 author: "Christopher Pietsch, Alexa Steinbrück"
 heroImage: "/prompt.jpg"
 tags: Prompt Battle, Artificial Intelligence
@@ -10,21 +10,28 @@ draft: true
 featured: false
 ---
 
-On Wednesday, the AI+Design Lab at the HFG held its grand opening. The evening began with a cozy exchange of ideas, drinks, and snacks, followed by the highly anticipated Prompt Battle. The Prompt Battle was a humorous contest where participants went head to head, using text prompts to generate images through a KI software. The audience then decided which image was the winner. It was a great night of creativity, laughs, and a bit of healthy competition.
+On Wednesday we officially opened the AI+Design Lab at the HFG and invited colleagues and students to come by and connect. 
+Following a brief introduction to the research project and the project members working with the AI+D Team, we offered pizza and drinks.
+The highlight of the evening was the Prompt Battle - an event invented by a Team at the [HTW Dresden](https://htw-dresden.de). 
+It's inspired by rap battles, but instead of rhymes, participants battled each other by generating images with Stable Diffusion.
+The tournament was held in a 1v1 single elimination bracket. 
 
+Each match consisted of a best of 5: Up to five challenges where given, according to which the students then took their best shot at prompting Stable Diffusion to produce a witty image. 
+Each round the audience judged both pictures and decided the better image by gathering behind their contestants of choice.
 ![Prompt Battle](./images/1.jpg)
 
-The Prompt Battle was a fun and exciting way to showcase the capabilities of KI software and its applications in the field of design. The competition was intense, and the participants were fearless in their approach to the contest. The keyboards were working overtime, and the KI software was put to the test, pushing its parameters to the limit.
+The Prompt Battle was a fun and exciting way to showcase the capabilities of AI software and its applications. The competition was intense, and the participants were fearless in their approach to the contest. The keyboards were working overtime, and the algorithm was put to the test, pushing its parameters to the limit.
 
 ![Prompt Battle](./images/2.jpg)
 
-It was a great way to engage with the audience, showing them the potential of KI technology and its ability to enhance the design process. The event provided an opportunity for participants to explore the relationship between KI and design, and how these two fields can work together to create innovative and exciting new applications.
+It was a great way to engage with the audience, showing them the potential of AI technology and its ability to enhance the design process. The event provided an opportunity for participants to explore the relationship between AI and design, and how these two fields can work together to create innovative and exciting new applications.
 
 ![Prompt Battle](./images/3.jpg)
 
-The event was a huge success, and the AI+Design Lab is looking forward to working with the participants to develop new applications at the intersection of design and KI. The lab is committed to exploring the potential of KI technology to revolutionize the design process and create new and innovative solutions to some of today's most pressing design challenges.
+The event was a huge success, and the AI+Design Lab is looking forward to working with the participants to develop new applications at the intersection of design and AI. The lab is committed to exploring the potential of AI technology to revolutionize the design process and create new and innovative solutions to some of today's most pressing design challenges.
 
 ![Prompt Battle](./images/4.jpg)
+
 
 ---
 
