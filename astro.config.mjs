@@ -1,4 +1,4 @@
-import { defineConfig } from "astro/config";
+import { defineConfig, sharpImageService } from "astro/config";
 import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
@@ -12,10 +12,20 @@ export default defineConfig({
   experimental: {
     assets: true,
   },
-  integrations: [mdx(), sitemap(), tailwind(), svelte()],
+  integrations: [
+    mdx(),
+    sitemap(),
+    tailwind({
+      config: { applyBaseStyles: false },
+    }),
+    svelte()
+  ],
   vite: {
     ssr: {
       noExternal: ["bytemd"],
     },
+  },
+  image: {
+    service: sharpImageService(),
   },
 });
