@@ -1,13 +1,12 @@
 <script>
-  import "bytemd/dist/index.css";
+  // import "/src/styles/global.css";
 
   import { Editor, Viewer } from "bytemd";
   import gfm from "@bytemd/plugin-gfm";
 
-  let value;
+  let value = "# h1 \n\n## h2";
   const plugins = [
     gfm(),
-    // Add more plugins here
   ];
 
   function handleChange(e) {
@@ -16,3 +15,4 @@
 </script>
 
 <Editor {value} {plugins} on:change={handleChange} />
+<Viewer {value} {plugins} />
