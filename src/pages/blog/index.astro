@@ -24,10 +24,9 @@ const features = (await getCollection("features")).sort(
     
     <div class="overflow-hidden rounded-t-xl md:rounded-tr-none md:rounded-s-xl ">
       <a class="inline" href={`/features/${features[0].slug}/`}>
-      <img
-         src={features[0].data.heroImage}
-         alt={features[0].data.description} 
-         class="">
+      <video
+         src={features[0].data.heroVideo}
+         class="" autoplay loop></video>
 
 
 

@@ -16,11 +16,19 @@ const {
   pubDate,
   updatedDate,
   heroImage,
+  heroVideo,
 } = Astro.props;
 ---
 
 <BaseLayout>
   <article class="max-w-2xl mx-auto">
+    <h1 class="text-center capitalize">{title}</h1>
+    <h2 class="text-center">{subtitle}</h2>
+
+    <hr class="mt-12">
+    <FormattedDate date={pubDate} class="text-center" />
+    <authors>{author}</authors>
+    <hr>
     {
       heroImage && (
         <img
@@ -32,9 +40,19 @@ const {
         />
       )
     }
-    <h1>{title}</h1>
-    <h2>{subtitle}</h2>
-    <FormattedDate date={pubDate} /><authors>{author}</authors>
+    {
+      heroVideo && (
+        <div class="overflow-hidden object-fit-contain w-full -mx-1">
+        <video
+
+          src={heroVideo}
+          class="mx-auto rounded-xl overflow-clip background-white"
+          autoplay loop
+        />
+      </div>
+      )
+    }
+
 
     {
       updatedDate && (

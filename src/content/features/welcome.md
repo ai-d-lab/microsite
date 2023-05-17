@@ -3,7 +3,8 @@ title: "Welcome to our new website"
 subtitle: "The AI+Design Lab of the University of Schwäbisch Gmünd opens its doors."
 description: "Abstract bitte hier."
 pubDate: "Jul 01 2022"
-heroImage: "/1.jpg"
+heroImage: ""
+heroVideo: "/lmorph.mp4"
 author: "AI+D Lab"
 tags: tags, here
 draft: true

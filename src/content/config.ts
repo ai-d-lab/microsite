@@ -16,6 +16,7 @@ const blog = defineCollection({
 			.optional()
 			.transform((str) => (str ? new Date(str) : undefined)),
 		heroImage: z.string().optional(),
+		heroVideo: z.string().optional(),
 	}),
 });
 
@@ -38,6 +39,8 @@ const features = defineCollection({
 			.optional()
 			.transform((str) => (str ? new Date(str) : undefined)),
 		heroImage: z.string().optional(),
+		heroVideo: z.string().optional(),
+
 	}),
 });
 

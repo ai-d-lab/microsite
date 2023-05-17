@@ -36,6 +36,11 @@
 	time {
 		@apply text-xs;
 	}
+	article img {
+		@apply my-12 rounded-xl;
+
+	}
+
 }
 
 
