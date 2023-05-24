@@ -7,7 +7,6 @@ heroImage: "/1.jpg"
 author: "AI+D Lab"
 tags: tags, here
 draft: true
-featured: false
 ---
 
 Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
