@@ -7,13 +7,13 @@
 		@apply text-black dark:text-gray-200;
 	}
 	h1 {
-		@apply text-4xl font-bold py-4 w-full my-2;
+		@apply text-4xl font-bold text-black dark:text-gray-50 py-4 w-full my-2;
 	}
 	h2 {
-		@apply text-3xl text-stone-500 font-bold py-3 my-2;
+		@apply text-3xl text-stone-500 text-stone-600 dark:text-stone-300 font-bold py-3 my-2;
 	}
 	h3 {
-		@apply text-2xl font-bold py-2 my-2;
+		@apply text-2xl text-stone-500 text-stone-600 dark:text-stone-300 font-bold py-2 my-2;
 	}
 	h4,h5,h6 {
 		@apply text-2xl font-light my-2;
