@@ -5,6 +5,7 @@ export interface Props {
 
 const { date } = Astro.props;
 ---
+<p class="block text-center italic font-bold mx-auto center">
 <time datetime={date.toISOString()} >
 
 	{
@@ -15,4 +16,4 @@ const { date } = Astro.props;
 		})
 	}
 	
-</time>
+</time></p>

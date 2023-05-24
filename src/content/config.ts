@@ -6,6 +6,7 @@ const blog = defineCollection({
 		title: z.string(),
 		subtitle: z.string(),
 		description: z.string(),
+		author: z.string(),
 		// Transform string to Date object
 		pubDate: z
 			.string()
@@ -29,6 +30,7 @@ const features = defineCollection({
 		title: z.string(),
 		subtitle: z.string(),
 		description: z.string(),
+		author: z.string(),
 		// Transform string to Date object
 		pubDate: z
 			.string()

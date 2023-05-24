@@ -25,10 +25,10 @@ const {
     <h1 class="text-center capitalize">{title}</h1>
     <h2 class="text-center">{subtitle}</h2>
 
-    <hr class="mt-12">
-    <FormattedDate date={pubDate} class="text-center" />
-    <authors>{author}</authors>
-    <hr>
+    <FormattedDate date={pubDate} class="text-center mx-auto" />
+    <div>{author}</div>
+    <hr class="mt-12 w-3/4 mx-auto border-stone-200 dark:border-stone-500">
+
     {
       heroImage && (
         <img
