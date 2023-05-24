@@ -25,7 +25,7 @@
 		@apply rounded-xl border-gray-100 border-2 mx-auto w-3/4;
 	}
 	a {
-		@apply font-bold text-gray-400 dark:text-gray-300;
+		@apply font-medium text-gray-400 dark:text-gray-300;
 	}
 	hr {
 		@apply my-4;
