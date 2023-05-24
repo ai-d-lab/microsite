@@ -23,11 +23,15 @@ const {
 <BaseLayout>
   <article class="max-w-2xl mx-auto">
     <h1 class="text-center capitalize">{title}</h1>
-    <h2 class="text-center">{subtitle}</h2>
+    <h2 class="text-center font-medium text-2xl">{subtitle}</h2>
 
-    <FormattedDate date={pubDate} class="text-center mx-auto" />
-    <div>{author}</div>
-    <hr class="mt-12 w-3/4 mx-auto border-stone-200 dark:border-stone-500">
+    <p class="block text-center pb-0 mb-0 text-sm italic font-normal mx-auto center">
+
+    <FormattedDate date={pubDate} />
+  </p>
+  <p class="block pt-0 mt-0 text-center text-stone-500 text-sm ">Rahel Flechtner{author}</p>
+    
+    <hr class="mt-8 w-3/4 mx-auto border-stone-200 dark:border-stone-500">
 
     {
       heroImage && (
