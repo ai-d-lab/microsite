@@ -6,6 +6,7 @@ module.exports = {
     fontFamily: {
       sans: ["inter tight", "sans"],
       public: ["Inter tight", "sans-serif"],
+      serif: ["Libre Caslon Text", "serif"]
     },
 
     extend: {
