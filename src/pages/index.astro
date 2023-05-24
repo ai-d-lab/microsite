@@ -3,9 +3,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 import FormattedDate from "../components/FormattedDate.astro";
 
-const posts = (await getCollection("blog")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+// get all posts from the blog collection, sorted by date and filtered by draft: false
+const posts = (
+  await getCollection("blog", ({ data }) => {
+    return data.draft !== true;
+  })
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 const features = (await getCollection("features")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
@@ -23,40 +26,37 @@ const features = (await getCollection("features")).sort(
       class="gap-3 md:col-span-2 mx-2 rounded-xl shadow-[inset_0px_0px_0px_rgba(0,0,0,0.6)] shadow-white bg-stone-100 dark:bg-stone-800 grid grid-cols-1 md:grid-cols-2"
       id="featured"
     >
-  
-
       <div
         class="overflow-hidden rounded-t-xl md:rounded-tr-none md:rounded-s-xl"
       >
-      { 
-      features[0].data.heroVideo && (
-        <a class="inline" href={`/features/${features[0].slug}/`}>
-          
-          <video src={features[0].data.heroVideo} class="h-full scale-105 my-0 py-0 top-0" autoplay loop
-          ></video></a>
+        {
+          features[0].data.heroVideo && (
+            <a class="inline" href={`/features/${features[0].slug}/`}>
+              <video
+                src={features[0].data.heroVideo}
+                class="h-full scale-105 my-0 py-0 top-0"
+                autoplay
+                loop
+              />
+            </a>
           )
         }
         {
-      features[0].data.heroImage && (
-
-          <img src={features[0].data.heroImage} class="h-full my-0 py-0 top-0">
-
-      )
-      }
-
-        </div>
-        <div class="px-12">
+          features[0].data.heroImage && (
+            <img
+              src={features[0].data.heroImage}
+              class="h-full my-0 py-0 top-0"
+            />
+          )
+        }
+      </div>
+      <div class="px-12">
         <a class="inline" href={`/features/${features[0].slug}/`}>
           <h1>{features[0].data.title}</h1>
           <h3 class="font-normal">{features[0].data.subtitle}</h3>
-          </a>
-        </div>
-
-
-
+        </a>
+      </div>
     </div>
-
-
 
     {
       posts.map((post) => (
