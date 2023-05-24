@@ -19,9 +19,9 @@ const isActive = href === pathname || href === pathname.replace(/\/$/, "");
   class="flex-auto"
   {...props}
 ><p class:list={[
-  {"w-full before:transition-all py-2 my-0 before:h-11 before:hover:bg-white before:hover:bg-opacity-20 before:-z-10 before:-inset-0 before:rounded-xl text-public backdrop-blur-lg font-bold text-xl text-center  transition-all duration-200  rounded-xl flex-auto hover:shadow-md" : true},
-  {" bg-gradient-to-b from-white/90 to-stone-300/20 dark:bg-gradient-to-t dark:to-stone-800/10 dark:from-white/10 dark:text-gray-200 dark:font-light dark:backdrop-blur-2xl": !isActive},
-  {" bg-gradient-to-b from-white/60 to-stone-300/40 dark:bg-gradient-to-t dark:backdrop-blur-2xl dark:to-stone-800/10 dark:from-white/20  dark:text-gray-200 dark:font-light dark:backdrop-blur-2xl": isActive}
+  {"w-full before:transition-none py-2 my-0 before:h-11 before:hover:bg-white before:hover:bg-opacity-20 before:-z-10 before:-inset-0 before:rounded-xl text-public backdrop-blur-lg font-bold text-xl text-center  transition-all duration-200  rounded-xl flex-auto hover:shadow-md" : true},
+  {" bg-gradient-to-b from-white/90 to-stone-300/20 dark:bg-gradient-to-t dark:to-stone-800/10 dark:from-white/10 dark:text-gray-200 dark:backdrop-blur-2xl": !isActive},
+  {" bg-gradient-to-b from-white/60 to-stone-300/40 dark:bg-gradient-to-t dark:backdrop-blur-2xl dark:to-stone-800/10 dark:from-white/20  dark:text-gray-200 dark:backdrop-blur-2xl": isActive}
   ]}>
   <slot />
 </p>
