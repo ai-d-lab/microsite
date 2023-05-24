@@ -15,49 +15,40 @@ const features = (await getCollection("features")).sort(
 ---
 
 <BaseLayout>
-  
   <section
     class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-2 mt-0 gap-y-8 dark:text-white"
   >
-
-  <div id="clickfeature" class="gap-3 md:col-span-2 mx-2 rounded-xl shadow-[inset_0px_0px_0px_rgba(0,0,0,0.6)] shadow-white bg-stone-100 dark:bg-stone-800 grid grid-cols-1 md:grid-cols-2" id="featured">
-    
-    <div class="overflow-hidden rounded-t-xl md:rounded-tr-none md:rounded-s-xl ">
-      <a class="inline" href={`/features/${features[0].slug}/`}>
-      <video
-         src={features[0].data.heroVideo}
-         class="" autoplay loop></video>
-
-
-
-
+    <div
+      id="clickfeature"
+      class="gap-3 md:col-span-2 mx-2 rounded-xl shadow-[inset_0px_0px_0px_rgba(0,0,0,0.6)] shadow-white bg-stone-100 dark:bg-stone-800 grid grid-cols-1 md:grid-cols-2"
+      id="featured"
+    >
+      <div
+        class="overflow-hidden rounded-t-xl md:rounded-tr-none md:rounded-s-xl"
+      >
+        <a class="inline" href={`/features/${features[0].slug}/`}>
+          <video src={features[0].data.heroVideo} class="" autoplay loop
+          ></video>
+        </a>
+        <div class="px-12">
+          <h1>{features[0].data.title}</h1>
+          <h3 class="font-normal">{features[0].data.subtitle}</h3>
+        </div>
+      </div>
     </div>
-    <div class="px-12">
-<h1>{features[0].data.title}</h1>
-<h3 class="font-normal">{features[0].data.subtitle}</h2>
-</a>
-
-</div>
-
-
-
-
-  </div>
     {
       posts.map((post) => (
-        
-          <div class="pb-8 px-2 text-3xl h-full font-public font-thin text-black dark:text-gray-200">
-            <a href={`/blog/${post.slug}/`}>
+        <div class="pb-8 px-2 text-3xl h-full font-public font-thin text-black dark:text-gray-200">
+          <a href={`/blog/${post.slug}/`}>
             <img
               src={post.data.heroImage}
               alt={post.data.description}
               class="rounded-xl mb-xl4 mx-auto"
             />
-            <h2 class="text-black dark:text-white pt-4">{post.data.title}</h>
-            <h3 class="font-normal text-stone-500">{post.data.subtitle}</h2>
-              </a>
-          </div>
-        
+            <h2 class="text-black dark:text-white pt-4">{post.data.title}</h2>
+            <h3 class="font-normal text-stone-500">{post.data.subtitle}</h3>
+          </a>
+        </div>
       ))
     }
   </section>
