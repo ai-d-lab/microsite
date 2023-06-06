@@ -4,7 +4,7 @@ module.exports = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      sans: ["AtlasGrotesk", "black"],
+      atlas: ["AtlasGrotesk", "black"],
       public: ["AtlasGrotesk", "black"],
       serif: ["AtlasGrotesk", "black"],
     },

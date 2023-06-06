@@ -1,25 +1,4 @@
-<div>
-  <a href="/"><img id="rndlogo" class="mx-auto transition-all duration-200 aspect-[2/1] relative w-[28rem] mt-0 py-0" /></a>
+<div class="flex-auto mx-auto m-0 p-0">
+  <a href="/"><img src = "/logo/aid-clean.png" id="rndlogo" class="transition-all duration-200 relative w-[18rem] mt-0 py-0" /></a>
 </div>
-<script is:inline>
-  // replace the logo with a random src
-  let l = new Date(); // use l for the date object
-  let src = "/logo/" + ((l.getSeconds() % 8) + 1).toString() + ".webp"; // use d for the logo string
-  document.getElementById("rndlogo").src = src;
-
-
-  window.addEventListener("scroll", function() {
-    var logo = document.getElementById("rndlogo");
-    var scrollPosition = window.scrollY;
-
-    if (scrollPosition > 100) {
-      logo.classList.add("w-72");
-      logo.classList.remove("w-[28rem]");
-    } else {
-      logo.classList.remove("w-72");
-      logo.classList.add("w-[28rem]");
-    }
-  });
-
-</script>
 

@@ -22,17 +22,12 @@ const {
 ---
 
 <BaseLayout>
-  <article class="max-w-2xl mx-auto">
-    <h1 class="text-center capitalize">{title}</h1>
-    <h2 class="text-center font-medium text-2xl">{subtitle}</h2>
-
-    <p class="block text-center pb-0 mb-0 text-sm italic font-normal mx-auto center">
-
-    <FormattedDate date={pubDate} />
-  </p>
-  <p class="block pt-0 mt-0 text-center text-stone-500 text-sm ">{author}</p>
+  <article class="w-full"> 
+    <FormattedDate date={pubDate} /><p class="inline pt-0 mt-0 text-center text-stone-500 text-xs ">{author}</p>
+    <h1 class="text-left font-black capitalize mb-0 pb-0">{title}</h1>
+    <h2 class="text-left font-medium pt-0 pb-0 text-2xl">{subtitle}</h2>
+ 
     
-    <hr class="mt-8 w-3/4 mx-auto border-stone-200 dark:border-stone-500">
 
     {
       heroImage && (
@@ -41,22 +36,11 @@ const {
           height={360}
           src={heroImage}
           alt=""
-          class="mx-auto rounded-xl"
+          class="left-0 w-full"
         />
       )
     }
-    {
-      heroVideo && (
-        <div class="overflow-hidden object-fit-contain w-full -mx-1">
-        <video
 
-          src={heroVideo}
-          class="mx-auto rounded-xl overflow-clip background-white"
-          autoplay loop
-        />
-      </div>
-      )
-    }
 
     {
       showintro && (

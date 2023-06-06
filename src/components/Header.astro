@@ -6,22 +6,45 @@ import { date } from "astro/zod";
 ---
 
 <header
-  class="w-full transition-all duration-200 before:absolute before:backdrop-blur-lg before:-z-10 before:-inset-1 before:gradient-mask-b-50 fixed -mt-2 pt-0 bg-gradient-to-b from-white via-white/50 to-white/0 dark:from-black dark:via-black/50"
+  class="w-full fixed top-0 transition-all duration-200"
 >
-  <Logo />
-  <div id="nav" class="flex gap-4 max-w-md mx-auto md:max-w-2xl w-full px-2">
+  
+  <div id="nav" class="flex min-w-full align-center transition-all  top-2 bg-white gap-4 max-w-md mx-auto px-2">
+
+    <Logo />
     <HeaderLink href="/">Blog</HeaderLink>
     <HeaderLink href="/team">Team</HeaderLink>
     <HeaderLink href="/features/welcome/">About</HeaderLink>
     <!-- <input
       type="search"
       placeholder="search"
-      class="hidden relative w-28 focus:w-1/2 text-right px-2 text-public h-11 font-bold text-xl py-2 transition-all duration-200 backdrop-blur-lg bg-stone-200/60 focus:bg-stone-300/75 !outline-none rounded-2xl flex-auto focus:shadow-md hover:shadow-md"
+      class="hidden relative w-28 focus:w-1/2 text-right px-2 text-atlas h-11 font-bold text-xl py-2 transition-all duration-200 backdrop-blur-lg bg-stone-200/60 focus:bg-stone-300/75 !outline-noneflex-auto focus:shadow-md hover:shadow-md"
     /> -->
   </div>
+ 
   <style>
     header {
       z-index: 1;
     }
   </style>
 </header>
+
+<script>
+
+
+  window.addEventListener("scroll", function() {
+    var nav = document.getElementById("nav");
+    var scrollPosition = window.scrollY;
+
+    
+    if (scrollPosition > 25) {
+      nav.classList.add("shadow-md");
+      nav.classList.remove("");
+    } else {
+      nav.classList.remove("shadow-md");
+      nav.classList.add("");
+    }
+  });
+
+</script>
+```
