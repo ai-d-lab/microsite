@@ -13,6 +13,7 @@ const {
   subtitle,
   author,
   description,
+  showintro,
   pubDate,
   updatedDate,
   heroImage,
@@ -56,6 +57,15 @@ const {
       </div>
       )
     }
+
+    {
+      showintro && (
+        <div class="prose prose-lg max-w-none">
+          The AI+D Lab is a research group at the <a href="https://www.hfg-gmuend.de">University of Design Schwäbisch Gmünd</a>.
+          It is part of the <a href="https://www.gestaltung.ai">KITeGG</a> project, which is funded by the Federal Ministry of Education and Research (BMBF).
+        </div>
+      )
+      }
 
 
     {

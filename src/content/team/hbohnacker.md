@@ -7,6 +7,4 @@ portrait: "/team/ai-d-portrait-hartmut.jpg"
 draft: true
 ---
 
-Aute cupidatat labore aute commodo do nostrud tempor. Officia eiusmod culpa incididunt dolor ea proident pariatur consequat elit cillum ipsum deserunt duis tempor. Exercitation mollit incididunt enim culpa Lorem reprehenderit aute. Velit consequat enim ad ex dolore commodo labore enim incididunt in. Magna laborum non proident. Commodo laboris elit esse occaecat enim amet veniam. Aliqua non ut ad.
-
-Anim ad adipisicing nisi veniam nisi irure ut veniam Lorem excepteur consectetur adipisicing dolore pariatur. Voluptate fugiat non ea id reprehenderit. Adipisicing ullamco laboris tempor ipsum proident eu. Irure voluptate nostrud esse nulla. Quis tempor esse dolore excepteur in est irure cillum elit deserunt ad culpa enim.
+Appointed in 2009 as professor for Media Design, Media Informatics and Media Technology. Studied visual communication at the HfG Schwäbisch Gmünd. Since 2002 lecturer for interactive media and freelance graphic designer for clients such as Siemens AG, Daimler Chrysler, EnBW, E.ON, Porsche AG, Robert Bosch GmbH and Fraunhofer Institute.

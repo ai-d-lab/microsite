@@ -3,8 +3,8 @@ title: "AI+Design lab @ HfG Schwäbisch Gmünd"
 subtitle: "The new lab works at the intersection of design and technology research"
 description: "Abstract bitte hier."
 pubDate: "Jul 01 2022"
-heroImage: ""
-heroVideo: "/lmorph.mp4"
+heroImage: "/about_img.jpg"
+heroVideo: ""
 author: "AI+D Lab"
 tags: tags, here
 draft: true
