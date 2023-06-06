@@ -6,7 +6,7 @@ pubDate: "May 02 2023"
 author: "Alexa Steinbrück"
 heroImage: "/reshape-banner.jpg"
 tags: Artificial Intelligence, KITeGG
-draft: true
+draft: false
 featured: false
 ---
 
