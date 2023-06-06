@@ -4,9 +4,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      sans: ["inter tight", "sans"],
-      public: ["Inter tight", "sans-serif"],
-      serif: ["Libre Caslon Text", "serif"]
+      sans: ["AtlasGrotesk", "black"],
+      public: ["AtlasGrotesk", "black"],
+      serif: ["AtlasGrotesk", "black"],
     },
 
     extend: {
