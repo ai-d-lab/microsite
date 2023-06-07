@@ -4,14 +4,14 @@ import ThemeIcon from "./ThemeIcon.astro";
 ---
 
 <footer
-  class="flex align-top object-contain justify-between max-h-12 max-w-md mx-auto md:max-w-2xl lg:max-w-4xl p-2 w-full"
+  class="grid grid-cols-2 flex-wrap align-middle bg-red-100 justify-around w-full p-2 h-24 lg:grid-cols-2"
 >
-  <div><ThemeIcon class="mt-0" /></div>
-  <img src="/hfg_logo.png" class="mt-0 h-12 w-auto pb-2" />
-  <img src="/bmbf.svg" class="mt-0 w-1/4 h-auto pt-0" />
-  <img src="/lbw.webp" class="mt-0 h-12 w-auto pb-2" />
+  <!-- <div><ThemeIcon class="mt-0" /></div> -->
+  <img src="/hfg_logo.png" class="my-auto h-max w-32 pb-2" />
+  <img src="/bmbf.svg" class="my-auto h-max w-32 pt-0" />
+  <img src="/lbw.webp" class="my-auto h-max w-40 pb-2" />
   <p
-    class="text-sm font-bold border-black pb-2 border-2 px-2 h-3/4 pt-2 my-0 dark:border-white"
+    class="text-sm font-bold text-white bg-black pb-2 px-2 h-1/2 pt-2 dark:border-white"
   >
     v0.41
   </p>

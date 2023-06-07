@@ -56,7 +56,7 @@
 
 @font-face {
 	font-family: 'Atlasgrotesk';
-	src: url('/fonts/AtlasGrotesk-Regular-Web.woff') format('woff');
+	src: url('/fonts/AtlasGrotesk-Regular-Web.woff2') format('woff');
 	font-weight: 400;
 	font-style: normal;
 	font-display: swap;
@@ -66,7 +66,7 @@
 	font-family: 'Atlasgrotesk';
 	src: url('/fonts/AtlasGrotesk-RegularItalic-Web.woff') format('woff');
 	font-weight: 400;
-	font-style: normal;
+	font-style: italic;
 	font-display: swap;
 }
 
@@ -104,16 +104,16 @@
 
 @layer base {
 	body {
-		@apply text-black dark:text-stone-300;
+		@apply text-black dark:text-gray-300;
 	}
 	h1 {
 		@apply text-4xl font-bold text-black dark:text-gray-50 py-4 w-full my-2;
 	}
 	h2 {
-		@apply text-3xl text-stone-500 text-stone-600 dark:text-stone-300 font-black py-3 my-2;
+		@apply text-3xl text-black dark:text-gray-300 font-black py-3 my-2;
 	}
 	h3 {
-		@apply text-2xl text-stone-500 text-stone-600 dark:text-stone-300 font-bold py-2 my-2;
+		@apply text-2xl text-black dark:text-gray-300 font-bold py-2 my-2;
 	}
 	h4,h5,h6 {
 		@apply text-2xl font-light my-2;
@@ -125,7 +125,7 @@
 		@apply border-gray-100 border-2 mx-auto w-3/4;
 	}
 	a {
-		@apply font-medium text-gray-400 dark:text-gray-300;
+		@apply font-medium text-black dark:text-gray-300;
 	}
 	hr {
 		@apply my-4;
