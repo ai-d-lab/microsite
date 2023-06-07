@@ -1,5 +1,5 @@
 ---
-title: "Artificial Intelligence and UX @ German UPA UX Chat"
+title: ""
 subtitle: "UX Chat on the topic of Artificial Intelligence and User Experience"
 description: "At the German UPA's UX Chat on "Artificial Intelligence and UX", we discussed new design questions and opportunities in the intersection of AI and user experience together with Matthias L. Chavanne, Lead AI & UX Designer at IBM."
 pubDate: "Feb 10 2023"
