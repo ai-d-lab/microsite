@@ -6,7 +6,7 @@ pubDate: "Mar 06 2023"
 author: "Rahel Flechtner, Aeneas Stankowski"
 heroImage: "/AE_RF_16x9.jpg"
 tags: Design Education, Artificial Intelligence
-draft: true 
+draft: false 
 featured: false
 showintro: true
 ---
