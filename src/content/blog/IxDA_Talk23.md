@@ -1,10 +1,10 @@
 ---
 title: " Talk @ IxDA education summit 2023"
 subtitle: "Pathways for integrating AI education in the design curriculum"
-description: "In the last years, there has been a growing interest among design students in incorporating AI into their work. However, insufficient understanding of AI's capabilities and limitations often leads to unrealistic design proposals. To address this, design education needs to equip students with the necessary knowledge and skills to engage with AI technologies in a meaningful way. In this article we summarize our thoughts and experiences on integrating AI into the design curriculum."
-pubDate: "Apr 26 2023"
+description: "We have been invited to participate in the IxDA Education Summit 2023 from 01 to 03 March. A great opportunity to discuss new possibilities and challenges of the discipline and share our experiences and thoughts on AI education in design."
+pubDate: "Mar 06 2023"
 author: "Rahel Flechtner, Aeneas Stankowski"
-heroImage: "/wildcard.jpg"
+heroImage: "/AE_RF_16x9.jpg"
 tags: Design Education, Artificial Intelligence
 draft: true 
 featured: false
@@ -15,6 +15,8 @@ Interaction design is a field that continually evolves alongside technological a
 At the IxDA interaction design education summit 2023 (https://www.edusummit.ixda.org/)we had the opportunity to discuss this exciting topic with other educators, learners and practitioners. With our talk titled "Pathways for integrating AI education in the design curriculum" we contributed our experiences and thoughts on AI education in design from the KITeGG project and the establishment of the AI+D Lab at HfG Schwäbisch Gmünd.
 
 We also compiled our experiences and thoughts into a comprehensive paper. For further information and access to the paper, please follow this [Link] (https://ai-d-lab.github.io/blog/ai_is_not_a_wildcard/).
+
+A big thank you to thank Jürgen Späth, Chair of Education Summit 23, for inviting us and the entire organizing team for their wonderful support event organization.
 
 
 > - This article was written with the support of [ChatGPT](https://chat.openai.com/)
