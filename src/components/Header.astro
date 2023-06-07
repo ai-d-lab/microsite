@@ -6,13 +6,13 @@ import { date } from "astro/zod";
 ---
 
 <header
-  class="w-full fixed top-0 transition-all duration-200  backdrop-blur-2xl bg-clip-padding"
+  class="w-full fixed top-0 transition-all duration-200  backdrop-blur-2xl bg-white/50 "
 >
   
-  <div id="nav" class="flex transition-all flex-wrap min-w-full w-[100rem] align-center pb-0 max-w-md mx-auto">
+  <div id="nav" class="flex transition-all flex-wrap flex-auto justify-start min-w-full w-[100rem] align-center pb-0 max-w-md mx-auto">
 
     <Logo />
-    <div class="flex justify-evenly flex-auto flex-nowrap">
+    <div class="flex justify-evenly flex-grow-0 w-full flex-nowrap">
     <HeaderLink href="/">Blog</HeaderLink>
     <HeaderLink href="/team">Team</HeaderLink>
     <HeaderLink href="/features/welcome/">About</HeaderLink>
