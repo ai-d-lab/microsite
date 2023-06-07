@@ -16,10 +16,10 @@ const isActive = href === pathname || href === pathname.replace(/\/$/, "");
     { "text-black": isActive },
   ]}
 
-  class="flex-auto"
+  class="flex"
   {...props}
 ><p class:list={[
-  {"" : true},
+  {"my-auto py-2 px-2 text-black" : true},
   {"": !isActive},
   {"font-medium": isActive}
   ]}>

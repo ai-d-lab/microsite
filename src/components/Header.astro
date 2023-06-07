@@ -6,15 +6,17 @@ import { date } from "astro/zod";
 ---
 
 <header
-  class="w-full fixed top-0 transition-all duration-200"
+  class="w-full fixed top-0 transition-all duration-200  backdrop-blur-2xl bg-clip-padding"
 >
   
-  <div id="nav" class="flex min-w-full align-center transition-all  top-2 bg-white gap-4 max-w-md mx-auto px-2">
+  <div id="nav" class="flex transition-all flex-wrap min-w-full w-[100rem] align-center pb-0 max-w-md mx-auto">
 
     <Logo />
+    <div class="flex justify-evenly flex-auto flex-nowrap">
     <HeaderLink href="/">Blog</HeaderLink>
     <HeaderLink href="/team">Team</HeaderLink>
     <HeaderLink href="/features/welcome/">About</HeaderLink>
+    </div>
     <!-- <input
       type="search"
       placeholder="search"
@@ -47,4 +49,3 @@ document.documentElement.classList.remove("dark");
   });
 
 </script>
-```

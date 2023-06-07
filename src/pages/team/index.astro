@@ -14,7 +14,7 @@ const members = await getCollection("team");
     {
       members.map((member) => (
         
-          <div class="bg-red-100 w-full text-3xl mx-auto px-0 font-public font-thin">
+          <div class="w-full text-3xl mx-auto px-0 font-public font-thin">
             <a href={`/team/${member.slug}/`}>
             <img
               src={member.data.portrait}
