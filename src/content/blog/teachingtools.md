@@ -5,6 +5,7 @@ author: ""
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Jul 08 2022"
 heroImage: "/2.jpg"
+draft: true
 featured: false
 ---
 
