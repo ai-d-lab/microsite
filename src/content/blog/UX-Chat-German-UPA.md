@@ -6,7 +6,7 @@ pubDate: "Feb 10 2023"
 author: "Rahel Flechtner, Aeneas Stankowski"
 heroImage: "/2302_UX-Chat_German-UPA.jpg"
 tags: Design Education, Artificial Intelligence
-draft: true 
+draft: false 
 featured: false
 showintro: true
 ---
