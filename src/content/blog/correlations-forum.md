@@ -4,7 +4,7 @@ subtitle: "Subtitle"
 description: "Description."
 pubDate: "Nov 14 2022"
 author: "Rahel Flechtner, Aeneas Stankowski"
-heroImage: "/wildcard.jpg"
+heroImage: "/correlations23.png"
 tags: Design Education, Artificial Intelligence
 draft: true
 featured: false
