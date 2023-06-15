@@ -26,9 +26,7 @@ At the University of Design Schwäbisch Gmünd we test the format of an AI-lab a
 
 #### Ressources
 
-> - [1] Rahel Flechtner and Aeneas Stankowski. 2023. AI Is Not a Wildcard: Challenges for Integrating AI into the Design Curriculum.  
->   In _EduCHI 2023: 5th Annual Symposium on HCI Education (EduCHI ’23)_, April 28, 2023, Hamburg, Germany. ACM, New York, NY, USA.  
->   DOI: [10.1145/3587399.3587410](https://doi.org/10.1145/3587399.3587410).
+> - [1] Rahel Flechtner and Aeneas Stankowski. 2023. AI Is Not a Wildcard: Challenges for Integrating AI into the Design Curriculum. In _EduCHI 2023: 5th Annual Symposium on HCI Education (EduCHI ’23)_, April 28, 2023, Hamburg, Germany. ACM, New York, NY, USA. DOI: [10.1145/3587399.3587410](https://doi.org/10.1145/3587399.3587410).
 
 ---
 
