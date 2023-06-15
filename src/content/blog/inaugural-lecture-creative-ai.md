@@ -1,6 +1,6 @@
 ---
 title: "Inaugural Lecture Visiting Professorship Creative AI"
-subtitle: "Aeneas Stankowski and Rahel Flechtner introduce themselves and their work."
+subtitle: "Aeneas Stankowski and Rahel Flechtner introduce themselves and their work"
 description: "Aeneas Stankowski and Rahel Flechtner introduce themselves and their ideas and topics for the next three years of teaching and research in AI and design."
 pubDate: "Oct 26 2022"
 author: "Rahel Flechtner, Aeneas Stankowski"
