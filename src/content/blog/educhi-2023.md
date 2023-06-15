@@ -1,7 +1,7 @@
 ---
 title: "Paper Presentation @ EduCHI23"
-subtitle: " AI Is Not a Wildcard: Challenges for Integrating AI into the Design Curriculum. "
-description: " We were excited to present and discuss our experiences and thoughts on AI education for design students at the 2023 EduCHI Symposium on April 28. Our paper, 'AI Is Not a Wildcard: Challenges for Integrating AI into the Design Curriculum,' contributes to the as-yet unresolved challenge of how to structurally integrate AI into the design curriculum."
+subtitle: "AI Is Not a Wildcard: Challenges for Integrating AI into the Design Curriculum."
+description: "We were excited to present and discuss our experiences and thoughts on AI education for design students at the 2023 EduCHI Symposium on April 28. Our paper, 'AI Is Not a Wildcard: Challenges for Integrating AI into the Design Curriculum,' contributes to the as-yet unresolved challenge of how to structurally integrate AI into the design curriculum."
 pubDate: "Apr 28 2023"
 author: "Rahel Flechtner, Aeneas Stankowski"
 heroImage: "/wildcard.jpg"
@@ -11,7 +11,7 @@ featured: false
 showintro: true
 
 
-We were more than happy to present and discuss our experiences and thoughts on AI education for design students at the [EduCHI symposium 2023] (https://educhi2023.hcilivingcurriculum.org/) in Hamburg. Our paper “AI Is Not a Wildcard: Challenges for Integrating AI into the Design Curriculum” [\[1\]](#ressources) contributed to the as-yet unsolved challenge of how to structurally integrate AI into the design curriculum. You can find the paper [here] and we provide a comprehensive summary of the paper in this [article](https://ai-d-lab.github.io/blog/ai_is_not_a_wildcard/).
+We were more than happy to present and discuss our experiences and thoughts on AI education for design students at the [EduCHI symposium 2023] (https://educhi2023.hcilivingcurriculum.org/) in Hamburg. Our paper 'AI Is Not a Wildcard: Challenges for Integrating AI into the Design Curriculum' [\[1\]](#ressources) contributed to the as-yet unsolved challenge of how to structurally integrate AI into the design curriculum. You can find the paper [here] and we provide a comprehensive summary of the paper in this [article](https://ai-d-lab.github.io/blog/ai_is_not_a_wildcard/).
 
 The EduCHI symposium brings together an international community of scholars, practitioners, and researchers to work on the future of Human–Computer Interaction (HCI) education. Especially given the rapid developments in artificial intelligence in recent months and the increasing impact of the technology on our professional practice, we found it particularly exciting to discuss current and future challenges facing HCI educators and to be inspired by teaching practices from the community.
 
