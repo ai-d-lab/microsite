@@ -16,7 +16,6 @@ At the [IxDA interaction design education summit 2023](https://www.edusummit.ixd
 
 We also compiled our experiences and thoughts into a comprehensive paper. For further information and access to the paper, please follow this [Link](https://ai-d-lab.github.io/blog/ai_is_not_a_wildcard/).
 
-A big thanks to Jürgen Späth, Chair of Education Summit 23, for inviting us and to the entire organizing team for their wonderful support and event organization.
 
 
 > - This article was written with the support of [ChatGPT](https://chat.openai.com/)
