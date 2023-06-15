@@ -8,7 +8,7 @@ heroImage: "/2302_UX-Chat_German-UPA.jpg"
 tags: Design Education, Artificial Intelligence
 draft: false 
 featured: false
-showintro: true
+showintro: false
 ---
 
 At the German UPA's UX Chat on "Artificial Intelligence and UX", we discussed new opportunities and challenges for design at the intersection of AI and user experience together with Matthias L. Chavanne, Lead AI & UX Designer at IBM. A recording of the discussion is available [here](https://germanupa.de/veranstaltungen/veranstaltungskalender/ux-chat-kuenstliche-intelligenz-und-ux).
