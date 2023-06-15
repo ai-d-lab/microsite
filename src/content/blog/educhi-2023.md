@@ -9,7 +9,7 @@ tags: Design Education, Artificial Intelligence
 draft: true
 featured: false
 showintro: true
-
+---
 
 We were more than happy to present and discuss our experiences and thoughts on AI education for design students at the [EduCHI symposium 2023] (https://educhi2023.hcilivingcurriculum.org/) in Hamburg. Our paper 'AI Is Not a Wildcard: Challenges for Integrating AI into the Design Curriculum' [\[1\]](#ressources) contributed to the as-yet unsolved challenge of how to structurally integrate AI into the design curriculum. You can find the paper [here] and we provide a comprehensive summary of the paper in this [article](https://ai-d-lab.github.io/blog/ai_is_not_a_wildcard/).
 
