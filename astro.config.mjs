@@ -7,7 +7,7 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://goosplit.com",
+  site: "https://www.goosplit.com",
   base: "/",
   experimental: {
     assets: true,
