@@ -4,7 +4,7 @@ subtitle: "Join us at the 3rd KITeGG summer school at HfG Schwäbisch Gmünd"
 description: "..."
 pubDate: "May 02 2023"
 author: "Alexa Steinbrück"
-heroImage: "/reshape-banner.jpg"
+heroImage: "reshape-banner.jpg"
 tags: Artificial Intelligence, KITeGG
 draft: false
 featured: false
