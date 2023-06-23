@@ -7,8 +7,8 @@ import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://hfg-gmuend.github.io/",
-  base: "/aid-lab",
+  site: "https://goosplit.com",
+  base: "/",
   experimental: {
     assets: true,
   },
