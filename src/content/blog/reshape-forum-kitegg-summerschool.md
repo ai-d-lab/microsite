@@ -12,8 +12,6 @@ featured: false
 
 It’s summer again! ⛱️ Join us for the 3rd KITeGG summer school, which is hosted for the first time by HfG Schwäbisch Gmünd and organized by AI+D Lab.
 
-##
-
 From the 10th to the 12th of May various talks and panels on the future of AI and Design will be held at the Auditorium of the HfG Schwäbisch Gmünd.
 
 In advance, from the 8th to the 10th of May, students are able to participate in a diverse range of AI-focused workshops held by educators from the KITeGG partner universities (Cologne, Mainz and Trier)!

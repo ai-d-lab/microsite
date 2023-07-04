@@ -1,9 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import BaseLayout from "./BaseLayout.astro";
-import BaseHead from "../components/BaseHead.astro";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 
 type Props = CollectionEntry<"blog">["data"];
@@ -19,6 +16,9 @@ const {
   heroImage,
   heroVideo,
 } = Astro.props;
+
+//append slash if missing
+const heroImageLink = heroImage ? heroImage.startsWith('/') ? heroImage : '/' + heroImage : undefined;
 ---
 
 <BaseLayout>
@@ -26,15 +26,12 @@ const {
     <FormattedDate date={pubDate} /><p class="inline pt-0 mt-0 text-center text-black text-xs ">{author}</p>
     <h1 class="text-left font-black capitalize mb-0 pb-0">{title}</h1>
     <h2 class="text-left font-medium pt-0 pb-0 text-2xl">{subtitle}</h2>
- 
-    
-
     {
-      heroImage && (
+      heroImageLink && (
         <img
           width={720}
           height={360}
-          src={heroImage}
+          src={heroImageLink}
           alt=""
           class="left-0 w-full"
         />
