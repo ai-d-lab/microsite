@@ -1,27 +1,30 @@
 ---
-import HeaderLink from "./HeaderLink.astro";
+import NavItem from "./NavItem.astro";
 import Logo from "./Logo.astro";
 ---
 
 <header
-  class="w-full fixed top-0 transition-all duration-200  backdrop-blur-2xl bg-white/50 "
+  class="w-full fixed top-0 transition-all duration-200 backdrop-blur-2xl bg-white/50"
 >
-  
-  <div id="nav" class="flex transition-all flex-wrap flex-auto justify-start min-w-full w-1/2 align-center pb-0 max-w-md mx-auto">
-
+  <nav
+    id="nav"
+    class="flex transition-all flex-wrap flex-auto justify-start min-w-full w-1/2 align-center pb-0 max-w-md mx-auto"
+  >
     <Logo />
-    <div class="flex justify-evenly w-full lg:w-[500px] lg:flex-grow-0 flex-nowrap">
-    <HeaderLink href="/">Blog</HeaderLink>
-    <HeaderLink href="/team">Team</HeaderLink>
-    <HeaderLink href="/features/welcome/">About</HeaderLink>
+    <div
+      class="flex justify-evenly w-full lg:w-[500px] lg:flex-grow-0 flex-nowrap"
+    >
+      <NavItem href="/">Blog</NavItem>
+      <NavItem href="/team">Team</NavItem>
+      <NavItem href="/features/welcome/">About</NavItem>
     </div>
     <!-- <input
       type="search"
       placeholder="search"
       class="hidden relative w-28 focus:w-1/2 text-right px-2 text-atlas h-11 font-bold text-xl py-2 transition-all duration-200 backdrop-blur-lg bg-stone-200/60 focus:bg-stone-300/75 !outline-noneflex-auto focus:shadow-md hover:shadow-md"
     /> -->
-  </div>
- 
+  </nav>
+
   <style>
     header {
       z-index: 1;
@@ -30,13 +33,12 @@ import Logo from "./Logo.astro";
 </header>
 
 <script>
-document.documentElement.classList.remove("dark");
+  document.documentElement.classList.remove("dark");
 
-  window.addEventListener("scroll", function() {
+  window.addEventListener("scroll", function () {
     var nav = document.getElementById("nav");
     var scrollPosition = window.scrollY;
 
-    
     if (scrollPosition > 25) {
       nav.classList.add("shadow-md");
       nav.classList.remove("");
@@ -45,5 +47,4 @@ document.documentElement.classList.remove("dark");
       nav.classList.add("");
     }
   });
-
 </script>

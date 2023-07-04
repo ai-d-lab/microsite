@@ -1,0 +1,19 @@
+---
+import type { HTMLAttributes } from "astro/types";
+
+type Props = HTMLAttributes<"a">;
+
+const { href, ...props } = Astro.props;
+
+const { pathname: currentPath } = Astro.url;
+const isActive =
+  href === currentPath || href === currentPath.replace(/\/$/, "");
+---
+
+<a href={href} class="flex" {...props}
+  ><p
+    class:list={["my-auto py-2 px-2 text-black", { "font-medium": isActive }]}
+  >
+    <slot />
+  </p>
+</a>
