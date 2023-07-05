@@ -1,0 +1,50 @@
+---
+export interface Props {
+  src: string;
+}
+
+const {src} = Astro.props;
+const url = new URL(src);
+const platform = url.host === "vimeo.com" ? 'vimeo' : (url.host === "youtube.com" || url.host === "www.youtube.com") ? 'youtube' : undefined;
+
+let srcUrl = src;
+if(platform === 'vimeo'){
+    const videoId = srcUrl.match(/(?:http:|https:|)\/\/(?:player.|www.)?vimeo\.com\/(?:video\/|embed\/|watch\?\S*v=|v\/)?(\d*)/)?.[1];
+    if(videoId){
+        srcUrl = `https://player.vimeo.com/video/${videoId}`;
+    }
+}else if(platform === 'youtube'){
+    const regEx = /(?:youtube\.com\/\S*(?:(?:\/e(?:mbed))?\/|watch\?(?:\S*?&?v\=))|youtu\.be\/)([a-zA-Z0-9_-]{6,11})/
+    const videoId = srcUrl.match(regEx)?.[1];
+    if(videoId){
+        srcUrl = `https://www.youtube.com/embed/${videoId}`
+    }
+}
+---
+{
+    platform === 'vimeo' &&
+    <iframe 
+        src={srcUrl}
+        width="640"
+        height="360" frameborder="0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+}
+
+{
+    platform === 'youtube' &&
+    <iframe
+        width="560"
+        height="315"
+        src={srcUrl}
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer;autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+}
+{
+     platform === undefined && 
+     <a href={srcUrl} target="_blank" rel="noopener noreferrer">{srcUrl}</a>
+}

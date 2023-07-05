@@ -1,0 +1,13 @@
+---
+import { Image, Picture } from '@astrojs/image/components';
+const {src, caption, width, height, alt, className} = Astro.props;
+---
+
+<Image src={src} width={width || "100%" } height={height || "30vh"} alt={alt} class={className}/>
+{caption && <p class="mt-0">{caption}</p>}
+
+<style>
+    .half{
+        width: 300px;
+    }
+</style>
