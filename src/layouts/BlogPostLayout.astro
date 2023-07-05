@@ -18,12 +18,20 @@ const {
 } = Astro.props;
 
 //append slash if missing
-const heroImageLink = heroImage ? heroImage.startsWith('/') ? heroImage : '/' + heroImage : undefined;
+const heroImageLink = heroImage
+  ? heroImage.startsWith("/")
+    ? heroImage
+    : "/" + heroImage
+  : undefined;
 ---
 
-<BaseLayout>
-  <article class="w-full"> 
-    <FormattedDate date={pubDate} /><p class="inline pt-0 mt-0 text-center text-black text-xs ">{author}</p>
+<BaseLayout title={title} description={description}>
+  <article class="w-full">
+    <FormattedDate date={pubDate} /><p
+      class="inline pt-0 mt-0 text-center text-black text-xs"
+    >
+      {author}
+    </p>
     <h1 class="text-left font-black capitalize mb-0 pb-0">{title}</h1>
     <h2 class="text-left font-medium pt-0 pb-0 text-2xl">{subtitle}</h2>
     {
@@ -38,16 +46,19 @@ const heroImageLink = heroImage ? heroImage.startsWith('/') ? heroImage : '/' + 
       )
     }
 
-
     {
       showintro && (
         <div class="prose prose-lg max-w-none">
-          The AI+D Lab is a research group at the <a href="https://www.hfg-gmuend.de">University of Design Schwäbisch Gmünd</a>.
-          It is part of the <a href="https://www.gestaltung.ai">KITeGG</a> project, which is funded by the Federal Ministry of Education and Research (BMBF).
+          The AI+D Lab is a research group at the{" "}
+          <a href="https://www.hfg-gmuend.de">
+            University of Design Schwäbisch Gmünd
+          </a>
+          . It is part of the <a href="https://www.gestaltung.ai">KITeGG</a>{" "}
+          project, which is funded by the Federal Ministry of Education and
+          Research (BMBF).
         </div>
       )
-      }
-
+    }
 
     {
       updatedDate && (
