@@ -19,7 +19,7 @@
     "@bytemd/plugin-gfm": "^1.21.0",
     "@fontsource/akshar": "^4.5.4",
     "@tailwindcss/line-clamp": "^0.4.4",
-    "astro": "^2.4.5",
+    "astro": "^2.7.4",
     "bytemd": "^1.21.0",
     "sharp": "^0.32.1",
     "svelte": "^3.59.1",
