@@ -20,6 +20,7 @@ const blog = defineCollection({
       .transform((str) => (str ? new Date(str) : undefined)),
     heroImage: z.string().optional(),
     heroVideo: z.string().optional(),
+    appearance: z.enum(["S", "M", "L"]),
   }),
 });
 

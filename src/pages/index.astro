@@ -9,6 +9,19 @@ const posts = (
   })
 ).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
+/* Until we have a proper design solution for this... ;-) */
+function createAppearanceStyle(appearance) {
+  switch (appearance) {
+    case "S":
+      return "border-none";
+    case "M":
+      return "border-2";
+    case "L":
+      return "border-4";
+  }
+  return "border-none";
+}
+
 // the posts are displayed in a grid layout, with 2 columns depending on the screen size
 // each post has the same height, if there is more text than the other posts, the text will be cut off
 ---
@@ -17,7 +30,12 @@ const posts = (
   <section class="grid md:grid-cols-2 gap-2 mt-0 gap-y-8 dark:text-white">
     {
       posts.map((post) => (
-        <div class="pb-8 px-2 text-3xl h-full font-public font-thin text-black dark:text-gray-200">
+        <div
+          class:list={[
+            "pb-8 px-2 text-3xl h-full font-public font-thin text-black dark:text-gray-200",
+            createAppearanceStyle(post.data.appearance),
+          ]}
+        >
           <a href={`/blog/${post.slug}/`}>
             <img
               src={post.data.heroImage}
