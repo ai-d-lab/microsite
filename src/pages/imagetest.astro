@@ -1,0 +1,17 @@
+---
+import { Image } from "astro:assets";
+import myImg from "../assets/sport.jpg";
+---
+
+<h1>This is just an image test!</h1>
+{JSON.stringify(myImg)}
+<img src={myImg.src} alt="A rocketship in space." />
+<Image src={myImg} alt={"asdf"} />
+<Image src={myImg} height={300} alt={"asdf"} />
+<Image
+  src={myImg}
+  width={300}
+  alt={"asdf"}
+  style="height: 300px; width: 30px; object-fit: cover;"
+/>
+<Image src={myImg} height={300} alt={"asdf"} />

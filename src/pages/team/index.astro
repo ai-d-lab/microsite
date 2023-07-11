@@ -9,13 +9,14 @@ const members = await getCollection("team");
 // each post has the same height, if there is more text than the other posts, the text will be cut off
 ---
 
-<BaseLayout>
-  <section class="grid max-w-2xl justify-stretch px-0 mx-auto grid-cols-1 mt-0 gap-x-8 gap-y-8 md:grid-cols-2 xl:grid-cols-2 dark:text-white">
+<BaseLayout title="Team">
+  <section
+    class="grid max-w-2xl justify-stretch px-0 mx-auto grid-cols-1 mt-0 gap-x-8 gap-y-8 md:grid-cols-2 xl:grid-cols-2 dark:text-white"
+  >
     {
       members.map((member) => (
-        
-          <div class="w-full text-3xl mx-auto px-0 font-public font-thin">
-            <a href={`/team/${member.slug}/`}>
+        <div class="w-full text-3xl mx-auto px-0 font-public font-thin">
+          <a href={`/team/${member.slug}/`}>
             <img
               src={member.data.portrait}
               alt={member.data.name}
@@ -23,10 +24,8 @@ const members = await getCollection("team");
             />
             <h1 class="text-2xl my-0">{member.data.name}</h1>
             <h2 class="text-xl my-0 py-0">{member.data.title}</h2>
-            </a>
-          </div>
-
-        
+          </a>
+        </div>
       ))
     }
   </section>

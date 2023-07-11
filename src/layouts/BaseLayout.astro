@@ -8,12 +8,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 const props = Astro.props;
 const title = props.title ? `${props.title} | ${SITE_TITLE}` : SITE_TITLE;
 const description = props.description || SITE_DESCRIPTION;
+const image = props.image || "./social.jpg";
 ---
 
 <!DOCTYPE html>
 <html lang="en" class="dark min-w-full overflow-y-scroll">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead title={title} description={description} image={image} />
   </head>
   <body class="min-w-full m-0 p-0 bg-white dark:bg-gray-900">
     <Header />
