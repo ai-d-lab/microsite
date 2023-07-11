@@ -17,6 +17,14 @@ const imageUrl = new URL(image, Astro.url.origin);
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 
+<!-- Tag to make our RSS Feed discoverable-->
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="/rss.xml"
+  title="AI+Design Lab (HfG Schwäbisch Gmünd) - RSS-Feed"
+/>
+
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
