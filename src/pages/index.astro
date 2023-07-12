@@ -2,15 +2,26 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
-// get all posts from the blog collection, sorted by date and filtered by draft: false
-const posts = (
+const pinnedPosts = (
   await getCollection("blog", ({ data }) => {
-    return data.draft !== true;
+    return data.draft !== true && data.pinned === true; //filter
   })
 ).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
+const normalPosts = (
+  await getCollection("blog", ({ data }) => {
+    return data.draft !== true && data.pinned !== true; //filter
+  })
+).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const posts = [...pinnedPosts, ...normalPosts];
+
 /* Until we have a proper design solution for this... ;-) */
-function createAppearanceStyle(appearance) {
+function createAppearanceStyle(appearance, pinned) {
+  if (pinned) {
+    //if its pinned, it gets highest apearance
+    return "border-4 col-span-2";
+  }
   switch (appearance) {
     case "S":
       return "border-none";
@@ -33,7 +44,7 @@ function createAppearanceStyle(appearance) {
         <div
           class:list={[
             "pb-8 px-2 text-3xl h-full font-public font-thin text-black dark:text-gray-200",
-            createAppearanceStyle(post.data.appearance),
+            createAppearanceStyle(post.data.appearance, post.data.pinned),
           ]}
         >
           <a href={`/blog/${post.slug}/`}>

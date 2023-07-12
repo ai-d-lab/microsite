@@ -24,40 +24,10 @@ const blog = defineCollection({
       }),
       heroVideo: z.string().optional(),
       appearance: z.enum(["S", "M", "L"]),
+      pinned: z.boolean().optional(),
     }),
 });
 
-// same as blog posts, but only newest one is displayed on the top of the page
-
-const features = defineCollection({
-  // Type-check frontmatter using a schema
-  schema: z.object({
-    title: z.string(),
-    subtitle: z.string(),
-    description: z.string(),
-    author: z.string(),
-    showintro: z.boolean().optional(),
-    // Transform string to Date object
-    pubDate: z
-      .string()
-      .or(z.date())
-      .transform((val) => new Date(val)),
-    updatedDate: z
-      .string()
-      .optional()
-      .transform((str) => (str ? new Date(str) : undefined)),
-    heroImage: z.string().optional(),
-    heroVideo: z.string().optional(),
-  }),
-});
-
-/*
-name: "Aeneas Stankowski"
-joined: "Oct 01 2022"
-left: ""
-portrait: "/aeneas_stankowski.jpg"
-draft: false
-*/
 const team = defineCollection({
   // Type-check frontmatter using a schema
   schema: z.object({
@@ -76,4 +46,4 @@ const team = defineCollection({
   }),
 });
 
-export const collections = { blog, features, team };
+export const collections = { blog, team };
