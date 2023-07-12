@@ -1,0 +1,15 @@
+---
+import { getImage } from "astro:assets";
+const { src, width = 900, ...otherProps } = Astro.props;
+
+const imgS = await getImage({ src: src, width: width });
+const imgM = await getImage({ src: src, width: width * 1.5 });
+const imgL = await getImage({ src: src, width: width * 2 });
+---
+
+<img
+  srcset=`${imgS.src}, ${imgM.src} 1.5x, ${imgL.src} 2x`
+  src={imgL.src}
+  style=`width: 100%; max-width: ${width}px`
+  {...otherProps}
+/>

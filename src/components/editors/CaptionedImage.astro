@@ -1,0 +1,9 @@
+---
+import CustomImage from "../Image.astro";
+const { src, caption, ...otherProps } = Astro.props;
+---
+
+<div>
+  <CustomImage src={src} {...otherProps} />
+  <p style="margin-top: 0">{caption}</p>
+</div>

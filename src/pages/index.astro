@@ -1,6 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { Image } from "astro:assets";
+import Image from "../components/Image.astro";
 import { getCollection } from "astro:content";
 
 const pinnedPosts = (
@@ -52,7 +52,7 @@ function createAppearanceStyle(appearance, pinned) {
             <Image
               src={post.data.heroImage}
               alt={post.data.description}
-              width="1000"
+              width={post.data.pinned ? 900 : 500}
               class="mb-xl4 mx-auto"
             />
             <h2 class="text-black dark:text-white pt-4">{post.data.title}</h2>

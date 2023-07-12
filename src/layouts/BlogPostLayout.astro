@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import { Image } from "astro:assets";
+import Image from "../components/Image.astro";
 import BaseLayout from "./BaseLayout.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 
@@ -27,7 +27,18 @@ const {
     </p>
     <h1 class="text-left font-black capitalize mb-0 pb-0">{title}</h1>
     <h2 class="text-left font-medium pt-0 pb-0 text-2xl">{subtitle}</h2>
-    {heroImage && <Image src={heroImage} alt="" class="left-0 w-full" />}
+    {
+      heroImage && (
+        <>
+          <Image
+            src={heroImage}
+            alt={description}
+            width={900}
+            class="left-0 w-full"
+          />
+        </>
+      )
+    }
 
     {
       showintro && (

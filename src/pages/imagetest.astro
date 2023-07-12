@@ -1,5 +1,7 @@
 ---
 import { Image } from "astro:assets";
+import CoolImage from "../components/Image.astro";
+import CaptionedImage from "../components/editors/CaptionedImage.astro";
 import myImg from "../assets/sport.jpg";
 ---
 
@@ -21,4 +23,15 @@ import myImg from "../assets/sport.jpg";
   width={10}
   alt={"asdf"}
   style="height: auto; width: 300px; object-fit: cover;"
+/>
+
+<p>------------------ Tests with Custom Image components -----------</p>
+<!--- Custom Image component to support Retina screens .... -->
+<CoolImage src={myImg} alt="ALT: An image of..." />
+
+<!--- Captioned Image Component, that just builds upon CoolImage component by adding a caption.... -->
+<CaptionedImage
+  src={myImg}
+  caption="Here you can see a dog with a hat"
+  alt="ALT: An image of..."
 />
