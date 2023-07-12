@@ -5,13 +5,20 @@ import myImg from "../assets/sport.jpg";
 
 <h1>This is just an image test!</h1>
 {JSON.stringify(myImg)}
-<img src={myImg.src} alt="A rocketship in space." />
+
+<!-- original size, native img tag, remains jpg tag -->
+<img src={myImg.src} alt={"asdf"} />
+
+<!-- original size, aber transformed into webp (viiiiiiel kleinere Filesize) -->
 <Image src={myImg} alt={"asdf"} />
-<Image src={myImg} height={300} alt={"asdf"} />
+
+<!-- width 300 -->
+<Image src={myImg} width={300} alt={"asdf"} />
+
+<!-- tiny width and change style -->
 <Image
   src={myImg}
-  width={300}
+  width={10}
   alt={"asdf"}
-  style="height: 300px; width: 30px; object-fit: cover;"
+  style="height: auto; width: 300px; object-fit: cover;"
 />
-<Image src={myImg} height={300} alt={"asdf"} />

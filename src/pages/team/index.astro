@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
-import FormattedDate from "../../components/FormattedDate.astro";
 
 const members = await getCollection("team");
 
@@ -17,9 +17,9 @@ const members = await getCollection("team");
       members.map((member) => (
         <div class="w-full text-3xl mx-auto px-0 font-public font-thin">
           <a href={`/team/${member.slug}/`}>
-            <img
+            <Image
               src={member.data.portrait}
-              alt={member.data.name}
+              alt={`Portrait picture of ${member.data.name}`}
               class="mb-2 w-full dark:shadow-white"
             />
             <h1 class="text-2xl my-0">{member.data.name}</h1>

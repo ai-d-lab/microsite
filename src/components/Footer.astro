@@ -1,5 +1,16 @@
+---
+import { Image } from "astro:assets";
+import HfgLogo from "../assets/hfg_logo.png";
+import BmbfLogo from "../assets/bmbf.svg";
+import LbwLogo from "../assets/lbw.webp";
+---
+
 <footer class="flex flex-wrap align-middle justify-around w-full p-2 h-24">
-  <img src="/hfg_logo.png" class="my-auto w-40 p-6" />
-  <img src="/bmbf.svg" class="my-auto w-40 p-6" />
-  <img src="/lbw.webp" class="my-auto w-48 p-6" />
+  <Image
+    src={HfgLogo}
+    class="my-auto w-40 p-6"
+    alt="Logo of Hochschule für Gestaltung Schwäbisch Gmünd"
+  />
+  <img src={BmbfLogo.src} class="my-auto w-40 p-6" alt="Logo of BMBF" />
+  <Image src={LbwLogo} class="my-auto w-48 p-6" alt="Logo of LBW" />
 </footer>

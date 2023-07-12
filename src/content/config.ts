@@ -30,20 +30,23 @@ const blog = defineCollection({
 
 const team = defineCollection({
   // Type-check frontmatter using a schema
-  schema: z.object({
-    name: z.string(),
-    title: z.string(),
-    joined: z
-      .string()
-      .or(z.date())
-      .transform((val) => new Date(val)),
-    left: z
-      .string()
-      .optional()
-      .transform((str) => (str ? new Date(str) : undefined)),
-    portrait: z.string().optional(),
-    draft: z.boolean(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      name: z.string(),
+      title: z.string(),
+      joined: z
+        .string()
+        .or(z.date())
+        .transform((val) => new Date(val)),
+      left: z
+        .string()
+        .optional()
+        .transform((str) => (str ? new Date(str) : undefined)),
+      portrait: image().refine((img) => img.width >= 300, {
+        message: "Cover image must be at least 300 pixels wide!",
+      }),
+      draft: z.boolean(),
+    }),
 });
 
 export const collections = { blog, team };
