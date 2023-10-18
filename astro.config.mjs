@@ -7,7 +7,7 @@ import svelte from "@astrojs/svelte";
 // https://astro.build/config
 export default defineConfig({
   site: "https://ai-d-lab.github.com",
-  // base: "/microsite",
+  base: "/microsite",
   experimental: {
     assets: true,
   },
