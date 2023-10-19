@@ -3,20 +3,16 @@ import NavItem from "./NavItem.astro";
 import Logo from "./Logo.astro";
 ---
 
-<header
-  class="w-full fixed top-0 transition-all duration-200 backdrop-blur-2xl bg-white/50"
->
+<header class="fixed transition-all duration-200">
   <nav
     id="nav"
-    class="flex transition-all flex-wrap flex-auto justify-start min-w-full w-1/2 align-center pb-0 max-w-md mx-auto"
+    class="flex transition-all rounded-lg shadow-white bg-purple-300 bg-opacity-50 justify-start align-center pb-0 backdrop-blur-2xl px-8 mx-2"
   >
     <Logo />
-    <div
-      class="flex justify-evenly w-full lg:w-[500px] lg:flex-grow-0 flex-nowrap"
-    >
-      <NavItem href="/microsite">Blog</NavItem>
+    <div class="flex justify-evenly flex-nowrap">
+      <NavItem href="/microsite/">Blog</NavItem>
       <!--      <NavItem href="/team">Team</NavItem> -->
-      <!--      <NavItem href="/blog/welcome/">About</NavItem> -->
+      <NavItem href="/microsite/blog/welcome/">About</NavItem>
     </div>
     <!-- <input
       type="search"
@@ -30,21 +26,8 @@ import Logo from "./Logo.astro";
       z-index: 1;
     }
   </style>
-</header>
+</header>çç
 
 <script>
   document.documentElement.classList.remove("dark");
-
-  window.addEventListener("scroll", function () {
-    var nav = document.getElementById("nav");
-    var scrollPosition = window.scrollY;
-
-    if (scrollPosition > 25) {
-      nav.classList.add("shadow-md");
-      nav.classList.remove("");
-    } else {
-      nav.classList.remove("shadow-md");
-      nav.classList.add("");
-    }
-  });
 </script>

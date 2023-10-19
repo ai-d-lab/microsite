@@ -21,17 +21,18 @@ const posts = [...pinnedPosts, ...normalPosts];
 function createAppearanceStyle(appearance, pinned) {
   if (pinned) {
     //if its pinned, it gets highest apearance
-    return "border-4 col-span-2";
+    return "col-span-2";
   }
   switch (appearance) {
     case "S":
-      return "border-none";
+      return "";
     case "M":
-      return "border-2";
+      return "";
+
     case "L":
-      return "border-4";
+      return "";
   }
-  return "border-none";
+  return "";
 }
 
 // the posts are displayed in a grid layout, with 2 columns depending on the screen size
@@ -39,24 +40,18 @@ function createAppearanceStyle(appearance, pinned) {
 ---
 
 <BaseLayout>
-  <section class="grid md:grid-cols-2 gap-2 mt-0 gap-y-8 dark:text-white">
+  <section class="flex flex-wrap mt-0 gap-y-8 dark:text-white">
     {
       posts.map((post) => (
         <div
           class:list={[
-            "pb-8 px-2 text-3xl h-full font-public font-thin text-black dark:text-gray-200",
+            "pb-8 px-2 text-3xl h-full border-b-2 border-black w-full font-public font-thin text-black dark:text-gray-200",
             createAppearanceStyle(post.data.appearance, post.data.pinned),
           ]}
         >
           <a href={`/microsite/blog/${post.slug}/`}>
-            <Image
-              src={post.data.heroImage}
-              alt={post.data.description}
-              width={post.data.pinned ? 900 : 500}
-              class="mb-xl4 mx-auto"
-            />
             <h2 class="text-black dark:text-white pt-4">{post.data.title}</h2>
-            <h3 class="font-medium text-black">{post.data.subtitle}</h3>
+            <h3 class="font-normal text-black">{post.data.subtitle}</h3>
           </a>
         </div>
       ))
