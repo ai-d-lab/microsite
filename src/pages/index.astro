@@ -2,6 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Image from "../components/Image.astro";
 import { getCollection } from "astro:content";
+import Textbox from "../components/Textbox.astro";
 
 const pinnedPosts = (
   await getCollection("blog", ({ data }) => {
@@ -40,13 +41,14 @@ function createAppearanceStyle(appearance, pinned) {
 ---
 
 <BaseLayout>
-  <section class="flex flex-wrap mt-0 gap-y-8 dark:text-white">
-    <div class="pb-8 px-2 text-3xl h-full border-b-2 border-black w-full font-public font-thin text-black dark:text-gray-200">
-      <div>
-        <h2 style="text-decoration: underline;" class="text-5xl text-black dark:text-white pt-4">AI+Design Lab</h2>
-        <h2 class="font-bold text-black">As part of the KITeGG research project funded by the BMBF and the respective states of the participating universities, the AI+D Lab opens it’s doors at the University of Design Schwäbisch Gmünd.</h2>
-      </div>
-    </div>
+  <section class="flex flex-wrap justify-center mt-0 gap-y-8 dark:text-white">
+    <Textbox>
+      <font slot="title">AI+Design Lab @ HfG Schwäbisch Gmünd</font>
+      <font slot="text">
+        The AI+D Lab is the place at HfG Schwäbisch Gmünd for research and
+        teaching that combines artificial intelligence and design.
+      </font>
+    </Textbox>
     {
       posts.map((post) => (
         <div
